@@ -1,0 +1,5 @@
+{ "host": "cps-database.gonzaga.edu",
+  "user": "...",
+  "password": "...",
+  "database": "cpsc321"
+}

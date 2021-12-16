@@ -1,0 +1,76 @@
+2021-12-12 16:47:00,984 | Logged in Account: 1 User: zfoteff
+2021-12-12 16:47:33,969 | Logged in Account: 2 User: zfoteff
+2021-12-12 16:49:35,839 | Logged in Account: 1 User: zfoteff
+2021-12-12 16:50:11,187 | Logged in Account: 1 User: zfoteff
+2021-12-12 16:53:54,886 | Logged in Account: 1 User: zfoteff
+2021-12-13 14:03:22,419 | Created Account: abc User: zfoteff
+2021-12-13 14:04:58,445 | Logged in Account: abc User: zfoteff
+2021-12-13 14:05:13,423 | Logged in Account: abc User: zfoteff
+2021-12-13 14:06:09,013 | Logged in Account: abc User: zfoteff
+2021-12-13 14:06:51,903 | Logged in Account: abc User: zfoteff
+2021-12-13 14:07:44,812 | Logged in Account: abc User: zfoteff
+2021-12-13 14:08:25,674 | Logged in Account: abc User: zfoteff
+2021-12-13 23:19:13,361 | Created Account: 1 User: 1
+2021-12-13 23:21:24,999 | Logged in Account: 1 User: 1
+2021-12-13 23:35:04,543 | Created Account: 123 User: zfoteff
+2021-12-13 23:35:50,736 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:36:23,505 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:36:54,239 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:37:47,232 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:47:38,727 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:48:08,074 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:49:02,752 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:49:12,963 | Creating new deposit | Amount: 9.0 Description: huh
+ Tag: apple
+2021-12-13 23:55:54,743 | Logged in Account: 123 User: zfoteff
+2021-12-13 23:56:12,696 | Creating new deposit | Amount: 25000.0 Description: more apples Tag: apples
+2021-12-14 00:05:03,960 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:06:37,087 | Creating new deposit | Amount: 100.0 Description: test Tag: test
+2021-12-14 00:07:37,816 | Creating new deposit | Amount: 200.0 Description: asd Tag: apples
+2021-12-14 00:14:30,212 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:14:46,600 | Creating new deposit | Amount: 12.0 Description: 123 Tag: apple
+2021-12-14 00:17:39,992 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:17:48,677 | Creating new deposit | Amount: 1.0 Description: apple Tag: test
+2021-12-14 00:21:04,999 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:40:03,384 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:41:09,987 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:41:59,675 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:44:48,714 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:46:08,276 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:53:05,253 | Logged in Account: 123 User: zfoteff
+2021-12-14 00:53:29,691 | Creating new deposit | Amount: 100.0 Description: more apples Tag: Apples
+2021-12-14 12:53:16,815 | Logged in Account: 123 User: zfoteff
+2021-12-14 12:53:38,543 | Created Account: school User: zfoteff899
+2021-12-14 12:54:01,623 | Creating new deposit | Amount: -35000.0 Description: Tuition payment Tag: Tuition
+2021-12-14 12:54:01,643 | module 'mysql.connector' has no attribute 'connector'
+2021-12-14 12:54:39,583 | Logged in Account: school User: zfoteff899
+2021-12-14 12:57:01,069 | Logged in Account: 123 User: zfoteff
+2021-12-14 12:57:08,987 | Created Account: 1 User: z
+2021-12-14 12:58:36,671 | Created Account: 2 User: z
+2021-12-14 12:59:05,696 | Creating new deposit | Amount: 1.0 Description: school Tag: Test
+2021-12-14 12:59:05,707 | module 'mysql.connector' has no attribute 'connector'
+2021-12-14 16:37:49,108 | Created Account: school User: zfoteff
+2021-12-14 21:08:08,100 | Created Account: money User: zfoteff
+2021-12-14 21:13:11,969 | Logged in Account: money User: zfoteff
+2021-12-14 21:22:34,736 | Logged in Account: money User: zfoteff
+2021-12-14 21:41:27,230 | Logged in Account: money User: zfoteff
+2021-12-14 21:43:59,554 | Logged in Account: money User: zfoteff
+2021-12-14 21:50:06,162 | Logged in Account: money User: zfoteff
+2021-12-14 21:54:11,617 | Logged in Account: money User: zfoteff
+2021-12-14 22:00:36,935 | Logged in Account: money User: zfoteff
+2021-12-14 22:02:52,227 | Logged in Account: money User: zfoteff
+2021-12-14 22:06:16,008 | Logged in Account: money User: zfoteff
+2021-12-14 22:07:22,303 | Logged in Account: money User: zfoteff
+2021-12-14 22:07:51,472 | Logged in Account: money User: zfoteff
+2021-12-14 22:08:59,412 | Creating new deposit | Amount: -1000.0 Description: Money I definately didn't waste Tag: Vegas
+2021-12-14 22:08:59,445 | 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't waste', 2021, 12, '2021-12-14 22:08:59.430920', '2021-12-14 22:08:59.430920')' at line 1
+2021-12-14 22:17:19,838 | Logged in Account: money User: zfoteff
+2021-12-14 22:19:04,223 | Creating new deposit | Amount: -75.0 Description: Money I wasted Tag: Vegas
+2021-12-14 22:33:30,090 | Logged in Account: money User: zfoteff
+2021-12-14 23:46:07,154 | Logged in Account: money User: zfoteff
+2021-12-14 23:48:33,192 | Creating new deposit | Amount: -1000.0 Description: Tuition payment Tag: Tuition
+2021-12-14 23:52:44,412 | Logged in Account: money User: zfoteff
+2021-12-15 00:00:25,903 | Logged in Account: money User: zfoteff
+2021-12-15 09:59:21,249 | Logged in Account: money User: zfoteff
+2021-12-15 10:00:38,895 | Created Account: test1 User: zfoteff
+2021-12-15 10:00:54,539 | Creating new deposit | Amount: 100.0 Description: Apples Tag: Food

@@ -1,0 +1,1614 @@
+2021-12-02 01:15:20,886 | Attempting Database connection ...
+2021-12-02 01:15:21,907 | Successfully connected to Database
+2021-12-02 01:15:21,907 | Starting testConnectionToTables test
+2021-12-02 01:15:21,920 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:15:21,935 | Get call to database: SELECT COUNT(*) FROM account
+2021-12-02 01:15:21,976 | Get call to database: SELECT COUNT(*) FROM transactions
+2021-12-02 01:15:21,977 | Completed testConnectionToTables test
+2021-12-02 01:15:21,979 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 01:15:21,998 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:15:22,029 | Create new user zac: INSERT INTO user (username) VALUES ('zac');
+2021-12-02 01:15:22,167 | Create new user timmy: INSERT INTO user (username) VALUES ('timmy');
+2021-12-02 01:15:22,456 | Create new user jimmy: INSERT INTO user (username) VALUES ('jimmy');
+2021-12-02 01:15:22,582 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:15:22,582 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 01:15:22,583 | --- Starting testDeleteFromUserTable test
+2021-12-02 01:15:22,595 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:15:22,610 | Delete user zac: DELETE FROM user WHERE username='zac'
+2021-12-02 01:15:22,741 | Delete user timmy: DELETE FROM user WHERE username='timmy'
+2021-12-02 01:15:23,168 | Delete user jimmy: DELETE FROM user WHERE username='jimmy'
+2021-12-02 01:15:23,339 | Connection closed
+2021-12-02 01:16:48,069 | Attempting Database connection ...
+2021-12-02 01:16:48,223 | Successfully connected to Database
+2021-12-02 01:16:48,224 | Starting testConnectionToTables test
+2021-12-02 01:16:48,239 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:16:48,252 | Get call to database: SELECT COUNT(*) FROM account
+2021-12-02 01:16:48,272 | Get call to database: SELECT COUNT(*) FROM transactions
+2021-12-02 01:16:48,273 | Completed testConnectionToTables test
+2021-12-02 01:16:48,274 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 01:16:48,286 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:16:48,299 | Create new user zac: INSERT INTO user (username) VALUES ('zac');
+2021-12-02 01:16:48,468 | Create new user timmy: INSERT INTO user (username) VALUES ('timmy');
+2021-12-02 01:16:48,810 | Create new user jimmy: INSERT INTO user (username) VALUES ('jimmy');
+2021-12-02 01:16:48,951 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:16:48,951 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 01:16:48,952 | --- Starting testDeleteFromUserTable test
+2021-12-02 01:16:48,971 | Get call to database: SELECT COUNT(*) FROM user
+2021-12-02 01:16:49,226 | Delete user zac: DELETE FROM user WHERE username='zac'
+2021-12-02 01:16:49,427 | Delete user timmy: DELETE FROM user WHERE username='timmy'
+2021-12-02 01:16:49,536 | Delete user jimmy: DELETE FROM user WHERE username='jimmy'
+2021-12-02 01:16:49,669 | Connection closed
+2021-12-02 10:07:24,467 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:07:25,158 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:07:25,159 | --- Starting testDeleteFromUserTable test
+2021-12-02 10:08:41,303 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:08:42,023 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:08:42,025 | --- Starting testDeleteFromUserTable test
+2021-12-02 10:11:54,252 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:11:54,711 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:11:54,712 | --- Starting testDeleteFromUserTable test
+2021-12-02 10:15:26,921 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:15:27,484 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:15:27,485 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:15:28,205 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:18:55,594 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:18:56,098 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:18:56,099 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:18:56,354 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:20:11,084 | Starting testConnectionToTables test
+2021-12-02 10:20:47,568 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:22:02,584 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:22:03,159 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:22:03,159 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:22:03,751 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:25:14,403 | --- Starting testInsertingIntoUserTable test ---
+2021-12-02 10:25:15,160 | --- Completed testInsertingIntoUserTable test ---
+2021-12-02 10:25:15,160 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:25:15,829 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:30:49,128 | --- Starting user insert test ---
+2021-12-02 10:30:49,902 | --- Completed user insert test ---
+2021-12-02 10:30:49,902 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:30:50,740 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:32:29,314 | --- Starting user insert test ---
+2021-12-02 10:32:42,320 | --- Starting user insert test ---
+2021-12-02 10:34:27,899 | --- Starting user insert test ---
+2021-12-02 10:35:05,515 | --- Starting user insert test ---
+2021-12-02 10:35:14,726 | --- Starting user insert test ---
+2021-12-02 10:35:39,733 | --- Starting user insert test ---
+2021-12-02 10:35:41,574 | --- Starting user insert test ---
+2021-12-02 10:36:20,377 | --- Starting user insert test ---
+2021-12-02 10:36:23,704 | --- Starting user insert test ---
+2021-12-02 10:36:36,126 | --- Starting user insert test ---
+2021-12-02 10:36:36,668 | --- Starting user insert test ---
+2021-12-02 10:36:36,688 | --- Completed user insert test ---
+2021-12-02 10:36:36,690 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:36:37,552 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:36:37,554 | --- Starting get user id test ---
+2021-12-02 10:37:18,056 | --- Starting user insert test ---
+2021-12-02 10:37:18,640 | --- Completed user insert test ---
+2021-12-02 10:37:18,641 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:37:19,533 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:37:19,533 | --- Starting get user id test ---
+2021-12-02 10:37:26,552 | --- Starting user insert test ---
+2021-12-02 10:37:26,818 | --- Completed user insert test ---
+2021-12-02 10:37:26,819 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:37:27,316 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:37:27,318 | --- Starting get user id test ---
+2021-12-02 10:37:39,936 | --- Starting user insert test ---
+2021-12-02 10:37:40,718 | --- Completed user insert test ---
+2021-12-02 10:37:40,719 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:37:41,066 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:37:41,067 | --- Starting get user id test ---
+2021-12-02 10:37:45,038 | --- Starting user insert test ---
+2021-12-02 10:37:45,442 | --- Completed user insert test ---
+2021-12-02 10:37:45,444 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:37:45,953 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:37:45,954 | --- Starting get user id test ---
+2021-12-02 10:40:20,194 | --- Starting user insert test ---
+2021-12-02 10:40:21,009 | --- Completed user insert test ---
+2021-12-02 10:40:21,009 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:40:21,602 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:40:21,603 | --- Starting get user id test ---
+2021-12-02 10:40:24,931 | --- Starting user insert test ---
+2021-12-02 10:40:25,296 | --- Completed user insert test ---
+2021-12-02 10:40:25,296 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:40:25,613 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:40:25,614 | --- Starting get user id test ---
+2021-12-02 10:40:28,281 | --- Starting user insert test ---
+2021-12-02 10:40:28,780 | --- Completed user insert test ---
+2021-12-02 10:40:28,781 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:40:29,283 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:40:29,283 | --- Starting get user id test ---
+2021-12-02 10:40:41,064 | --- Starting user insert test ---
+2021-12-02 10:40:41,791 | --- Completed user insert test ---
+2021-12-02 10:40:41,792 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:40:42,594 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:40:42,595 | --- Starting get user id test ---
+2021-12-02 10:41:08,554 | --- Starting user insert test ---
+2021-12-02 10:41:09,310 | --- Completed user insert test ---
+2021-12-02 10:41:09,310 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:41:09,582 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:41:09,582 | --- Starting get user id test ---
+2021-12-02 10:41:11,602 | --- Starting user insert test ---
+2021-12-02 10:41:12,008 | --- Completed user insert test ---
+2021-12-02 10:41:12,009 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:41:12,493 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:41:12,493 | --- Starting get user id test ---
+2021-12-02 10:41:34,309 | --- Starting user insert test ---
+2021-12-02 10:41:35,123 | --- Completed user insert test ---
+2021-12-02 10:41:35,123 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:41:35,379 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:41:35,380 | --- Starting get user id test ---
+2021-12-02 10:41:37,799 | --- Starting user insert test ---
+2021-12-02 10:41:38,397 | --- Completed user insert test ---
+2021-12-02 10:41:38,398 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:41:38,709 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:41:38,709 | --- Starting get user id test ---
+2021-12-02 10:41:43,966 | --- Starting user insert test ---
+2021-12-02 10:41:44,342 | --- Completed user insert test ---
+2021-12-02 10:41:44,344 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:41:45,428 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:41:45,429 | --- Starting get user id test ---
+2021-12-02 10:42:13,557 | --- Starting user insert test ---
+2021-12-02 10:42:14,547 | --- Completed user insert test ---
+2021-12-02 10:42:14,547 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:42:14,642 | --- Starting user insert test ---
+2021-12-02 10:42:15,059 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:42:15,060 | --- Starting get user id test ---
+2021-12-02 10:51:34,120 | --- Starting user insert test ---
+2021-12-02 10:51:34,848 | --- Completed user insert test ---
+2021-12-02 10:51:34,850 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:51:35,178 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:51:35,179 | --- Starting get user id test ---
+2021-12-02 10:52:38,103 | --- Starting user insert test ---
+2021-12-02 10:52:38,586 | --- Completed user insert test ---
+2021-12-02 10:52:38,586 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:52:39,413 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:52:39,413 | --- Starting get user id test ---
+2021-12-02 10:52:41,932 | --- Starting user insert test ---
+2021-12-02 10:52:42,369 | --- Completed user insert test ---
+2021-12-02 10:52:42,370 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:52:42,766 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:52:42,767 | --- Starting get user id test ---
+2021-12-02 10:53:16,626 | --- Starting user insert test ---
+2021-12-02 10:53:17,582 | --- Completed user insert test ---
+2021-12-02 10:53:17,583 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:53:17,922 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:53:17,923 | --- Starting get user id test ---
+2021-12-02 10:53:18,023 | Result: 1
+2021-12-02 10:53:18,023 | --- Completed get user id test ---
+2021-12-02 10:53:19,537 | --- Starting user insert test ---
+2021-12-02 10:53:20,137 | --- Completed user insert test ---
+2021-12-02 10:53:20,138 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:53:20,649 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:53:20,650 | --- Starting get user id test ---
+2021-12-02 10:53:20,854 | Result: 1
+2021-12-02 10:53:20,855 | --- Completed get user id test ---
+2021-12-02 10:55:31,023 | --- Starting user insert test ---
+2021-12-02 10:55:31,925 | --- Completed user insert test ---
+2021-12-02 10:55:31,925 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:55:32,283 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:55:32,283 | --- Starting get user id test ---
+2021-12-02 10:55:32,387 | Result: 1
+2021-12-02 10:55:32,388 | --- Completed get user id test ---
+2021-12-02 10:58:43,273 | --- Starting user insert test ---
+2021-12-02 10:58:55,042 | --- Starting user insert test ---
+2021-12-02 10:59:14,994 | --- Starting user insert test ---
+2021-12-02 10:59:15,787 | --- Completed user insert test ---
+2021-12-02 10:59:15,788 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:59:16,496 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:59:16,496 | --- Starting get user id test ---
+2021-12-02 10:59:21,837 | --- Starting user insert test ---
+2021-12-02 10:59:22,225 | --- Completed user insert test ---
+2021-12-02 10:59:22,225 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:59:22,534 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:59:22,535 | --- Starting get user id test ---
+2021-12-02 10:59:22,652 | Result: 7
+2021-12-02 10:59:22,652 | --- Completed get user id test ---
+2021-12-02 10:59:24,381 | --- Starting user insert test ---
+2021-12-02 10:59:24,885 | --- Completed user insert test ---
+2021-12-02 10:59:24,886 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 10:59:25,197 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 10:59:25,197 | --- Starting get user id test ---
+2021-12-02 11:00:22,988 | --- Starting user insert test ---
+2021-12-02 11:00:23,871 | --- Completed user insert test ---
+2021-12-02 11:00:23,872 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:00:24,376 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:00:24,376 | --- Starting get user id test ---
+2021-12-02 11:00:24,388 | Result: 7
+2021-12-02 11:00:24,388 | --- Completed get user id test ---
+2021-12-02 11:00:46,443 | --- Starting user insert test ---
+2021-12-02 11:00:47,112 | --- Completed user insert test ---
+2021-12-02 11:00:47,112 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:00:48,341 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:00:48,342 | --- Starting get user id test ---
+2021-12-02 11:00:48,350 | Result: 7
+2021-12-02 11:00:48,350 | --- Completed get user id test ---
+2021-12-02 11:00:50,364 | --- Starting user insert test ---
+2021-12-02 11:00:51,617 | --- Completed user insert test ---
+2021-12-02 11:00:51,617 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:00:51,877 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:00:51,877 | --- Starting get user id test ---
+2021-12-02 11:00:51,883 | Result: 7
+2021-12-02 11:00:51,883 | --- Completed get user id test ---
+2021-12-02 11:00:55,920 | --- Starting user insert test ---
+2021-12-02 11:00:56,285 | --- Completed user insert test ---
+2021-12-02 11:00:56,285 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:00:56,929 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:00:56,929 | --- Starting get user id test ---
+2021-12-02 11:00:56,945 | Result: 7
+2021-12-02 11:00:56,946 | --- Completed get user id test ---
+2021-12-02 11:01:03,437 | --- Starting user insert test ---
+2021-12-02 11:01:04,140 | --- Completed user insert test ---
+2021-12-02 11:01:04,142 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:01:04,727 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:01:04,729 | --- Starting get user id test ---
+2021-12-02 11:01:04,740 | Result: 7
+2021-12-02 11:01:04,742 | --- Completed get user id test ---
+2021-12-02 11:03:58,580 | --- Starting user insert test ---
+2021-12-02 11:03:59,109 | --- Completed user insert test ---
+2021-12-02 11:03:59,109 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:04:00,032 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:04:00,032 | --- Starting get user id test ---
+2021-12-02 11:04:00,040 | Result: 7
+2021-12-02 11:04:00,040 | --- Completed get user id test ---
+2021-12-02 11:04:07,103 | --- Starting user insert test ---
+2021-12-02 11:04:07,513 | --- Completed user insert test ---
+2021-12-02 11:04:07,513 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:04:32,891 | --- Starting user insert test ---
+2021-12-02 11:04:33,706 | --- Completed user insert test ---
+2021-12-02 11:04:33,706 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:04:34,746 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:04:34,746 | --- Starting get user id test ---
+2021-12-02 11:04:34,761 | Result: 7
+2021-12-02 11:04:34,761 | --- Completed get user id test ---
+2021-12-02 11:04:38,874 | --- Starting user insert test ---
+2021-12-02 11:04:49,123 | --- Starting user insert test ---
+2021-12-02 11:04:53,082 | --- Starting user insert test ---
+2021-12-02 11:05:40,680 | --- Starting user insert test ---
+2021-12-02 11:05:41,323 | --- Starting user insert test ---
+2021-12-02 11:06:45,903 | --- Starting user insert test ---
+2021-12-02 11:06:48,282 | --- Starting user insert test ---
+2021-12-02 11:07:00,935 | --- Starting user insert test ---
+2021-12-02 11:07:12,531 | --- Starting user insert test ---
+2021-12-02 11:07:15,666 | --- Starting user insert test ---
+2021-12-02 11:07:26,482 | --- Starting user insert test ---
+2021-12-02 11:07:59,932 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:08:01,515 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:08:01,516 | --- Starting get user id test ---
+2021-12-02 11:08:01,524 | Result: 7
+2021-12-02 11:08:01,524 | --- Completed get user id test ---
+2021-12-02 11:08:04,900 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:08:05,616 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:08:05,618 | --- Starting get user id test ---
+2021-12-02 11:08:05,631 | Result: 7
+2021-12-02 11:08:05,632 | --- Completed get user id test ---
+2021-12-02 11:08:14,993 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:08:15,662 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:08:15,663 | --- Starting get user id test ---
+2021-12-02 11:08:15,669 | Result: 7
+2021-12-02 11:08:15,669 | --- Completed get user id test ---
+2021-12-02 11:11:17,456 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:11:18,609 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:11:18,609 | --- Starting get user id test ---
+2021-12-02 11:11:18,835 | Result: 7
+2021-12-02 11:11:18,836 | --- Completed get user id test ---
+2021-12-02 11:11:22,930 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:11:23,576 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:11:23,576 | --- Starting get user id test ---
+2021-12-02 11:11:23,586 | Result: 7
+2021-12-02 11:11:23,586 | --- Completed get user id test ---
+2021-12-02 11:12:52,657 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:12:54,047 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:12:54,047 | --- Starting get user id test ---
+2021-12-02 11:12:54,056 | Result: 7
+2021-12-02 11:12:54,057 | --- Completed get user id test ---
+2021-12-02 11:19:59,729 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:20:00,859 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:20:00,859 | --- Starting get user id test ---
+2021-12-02 11:20:00,865 | Result: 7
+2021-12-02 11:20:00,865 | --- Completed get user id test ---
+2021-12-02 11:20:36,567 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:20:37,810 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:20:37,811 | --- Starting get user id test ---
+2021-12-02 11:20:37,819 | Result: 7
+2021-12-02 11:20:37,819 | --- Completed get user id test ---
+2021-12-02 11:22:27,480 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:22:28,619 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:22:28,619 | --- Starting get user id test ---
+2021-12-02 11:22:28,625 | Result: 7
+2021-12-02 11:22:28,625 | --- Completed get user id test ---
+2021-12-02 11:22:37,576 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:22:41,208 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:23:47,874 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:23:48,285 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:24:01,122 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:24:01,876 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:24:21,186 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:24:30,270 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:24:31,819 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:25:19,499 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:25:20,761 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:25:20,763 | --- Starting get user id test ---
+2021-12-02 11:25:20,775 | Result: 7
+2021-12-02 11:25:20,776 | --- Completed get user id test ---
+2021-12-02 11:25:37,060 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:25:37,583 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:25:38,751 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:25:38,751 | --- Starting get user id test ---
+2021-12-02 11:25:38,767 | Result: 7
+2021-12-02 11:25:38,767 | --- Completed get user id test ---
+2021-12-02 11:29:03,585 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:29:05,204 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:29:05,204 | --- Starting get user id test ---
+2021-12-02 11:29:05,211 | Result: 7
+2021-12-02 11:29:05,211 | --- Completed get user id test ---
+2021-12-02 11:31:51,835 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:31:53,231 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:31:53,231 | --- Starting get user id test ---
+2021-12-02 11:31:53,243 | Result: 7
+2021-12-02 11:31:53,243 | --- Completed get user id test ---
+2021-12-02 11:31:57,409 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:31:58,472 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:31:58,472 | --- Starting get user id test ---
+2021-12-02 11:31:58,477 | Result: 7
+2021-12-02 11:31:58,477 | --- Completed get user id test ---
+2021-12-02 11:32:22,754 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 11:32:24,169 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 11:32:24,170 | --- Starting get user id test ---
+2021-12-02 11:32:24,182 | Result: 7
+2021-12-02 11:32:24,182 | --- Completed get user id test ---
+2021-12-02 13:43:41,216 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 13:43:42,455 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 13:43:42,455 | --- Starting get user id test ---
+2021-12-02 15:02:13,089 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:02:14,298 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:02:14,299 | --- Starting get user id test ---
+2021-12-02 15:02:14,308 | Result: 7
+2021-12-02 15:02:14,308 | --- Completed get user id test ---
+2021-12-02 15:02:57,222 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:02:58,269 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:02:58,269 | --- Starting get user id test ---
+2021-12-02 15:02:58,276 | Result: 7
+2021-12-02 15:02:58,366 | --- Completed get user id test ---
+2021-12-02 15:06:12,927 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:06:14,033 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:06:14,033 | --- Starting get user id test ---
+2021-12-02 15:06:14,205 | Result: 190
+2021-12-02 15:06:14,288 | --- Completed get user id test ---
+2021-12-02 15:06:31,320 | --- Starting get user id test ---
+2021-12-02 15:06:31,408 | Result: 191
+2021-12-02 15:06:31,538 | --- Completed get user id test ---
+2021-12-02 15:06:31,539 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:06:32,550 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:06:32,551 | --- Starting account insert and delete test ---
+2021-12-02 15:06:34,438 | --- Starting get user id test ---
+2021-12-02 15:06:34,594 | Result: 195
+2021-12-02 15:06:34,731 | --- Completed get user id test ---
+2021-12-02 15:06:34,732 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:06:35,644 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:06:35,645 | --- Starting account insert and delete test ---
+2021-12-02 15:06:47,601 | --- Starting get user id test ---
+2021-12-02 15:06:47,710 | Result: 199
+2021-12-02 15:06:47,813 | --- Completed get user id test ---
+2021-12-02 15:06:47,813 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:06:48,868 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:06:48,869 | --- Starting account insert and delete test ---
+2021-12-02 15:06:59,535 | --- Starting get user id test ---
+2021-12-02 15:06:59,684 | Result: 204
+2021-12-02 15:06:59,787 | --- Completed get user id test ---
+2021-12-02 15:06:59,787 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:07:00,385 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:07:00,385 | --- Starting account insert and delete test ---
+2021-12-02 15:07:04,375 | --- Starting get user id test ---
+2021-12-02 15:07:04,517 | Result: 209
+2021-12-02 15:07:04,595 | --- Completed get user id test ---
+2021-12-02 15:07:04,597 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:07:05,608 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:07:05,610 | --- Starting account insert and delete test ---
+2021-12-02 15:08:47,600 | --- Starting get user id test ---
+2021-12-02 15:08:47,689 | Result: 1
+2021-12-02 15:08:48,004 | --- Completed get user id test ---
+2021-12-02 15:08:48,004 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:08:48,911 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:08:48,911 | --- Starting account insert and delete test ---
+2021-12-02 15:08:53,647 | --- Starting get user id test ---
+2021-12-02 15:08:53,958 | Result: 1
+2021-12-02 15:08:54,250 | --- Completed get user id test ---
+2021-12-02 15:08:54,251 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:08:55,160 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:08:55,162 | --- Starting account insert and delete test ---
+2021-12-02 15:10:06,547 | --- Starting get user id test ---
+2021-12-02 15:10:06,709 | Result: 1
+2021-12-02 15:10:06,914 | --- Completed get user id test ---
+2021-12-02 15:10:06,915 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:10:07,517 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:10:07,518 | --- Starting account insert and delete test ---
+2021-12-02 15:10:20,214 | --- Starting get user id test ---
+2021-12-02 15:10:20,349 | Result: 1
+2021-12-02 15:10:20,673 | --- Completed get user id test ---
+2021-12-02 15:10:20,674 | --- Starting testDeleteFromUserTable test ---
+2021-12-02 15:10:21,640 | --- Completed testDeleteFromUserTable test --- 
+2021-12-02 15:10:21,641 | --- Starting account insert and delete test ---
+2021-12-12 12:09:17,076 | --- Starting get user id test ---
+2021-12-12 12:09:17,207 | Result: 1
+2021-12-12 12:09:17,460 | --- Completed get user id test ---
+2021-12-12 12:09:17,461 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:09:18,574 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:09:18,574 | --- Starting account insert and delete test ---
+2021-12-12 12:09:20,054 | --- Completed account insert and delete test ---
+2021-12-12 12:09:53,656 | --- Starting get user id test ---
+2021-12-12 12:09:53,848 | Result: 1
+2021-12-12 12:09:54,003 | --- Completed get user id test ---
+2021-12-12 12:09:54,003 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:09:55,118 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:09:55,119 | --- Starting account insert and delete test ---
+2021-12-12 12:09:56,316 | --- Completed account insert and delete test ---
+2021-12-12 12:14:08,948 | --- Starting get user id test ---
+2021-12-12 12:14:09,095 | Result: 1
+2021-12-12 12:14:09,282 | --- Completed get user id test ---
+2021-12-12 12:14:09,283 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:14:10,439 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:14:10,439 | --- Starting account insert and delete test ---
+2021-12-12 12:14:11,898 | --- Completed account insert and delete test ---
+2021-12-12 12:14:44,577 | --- Starting get user id test ---
+2021-12-12 12:14:44,784 | Result: 1
+2021-12-12 12:14:45,020 | --- Completed get user id test ---
+2021-12-12 12:14:45,020 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:14:46,144 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:14:46,144 | --- Starting account insert and delete test ---
+2021-12-12 12:14:47,191 | --- Completed account insert and delete test ---
+2021-12-12 12:15:20,213 | --- Starting get user id test ---
+2021-12-12 12:15:20,381 | Result: 1
+2021-12-12 12:15:20,756 | --- Completed get user id test ---
+2021-12-12 12:15:20,756 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:15:22,025 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:15:22,025 | --- Starting account insert and delete test ---
+2021-12-12 12:15:28,002 | --- Starting get user id test ---
+2021-12-12 12:15:28,176 | Result: 1
+2021-12-12 12:15:28,581 | --- Completed get user id test ---
+2021-12-12 12:15:28,581 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:15:29,857 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:15:29,857 | --- Starting account insert and delete test ---
+2021-12-12 12:15:30,874 | --- Completed account insert and delete test ---
+2021-12-12 12:22:37,074 | --- Starting get user id test ---
+2021-12-12 12:22:37,263 | Result: 1
+2021-12-12 12:22:37,668 | --- Completed get user id test ---
+2021-12-12 12:22:37,668 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:22:38,911 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:22:38,911 | --- Starting account insert and delete test ---
+2021-12-12 12:22:40,234 | --- Completed account insert and delete test ---
+2021-12-12 12:24:23,817 | --- Starting get user id test ---
+2021-12-12 12:24:23,998 | Result: 1
+2021-12-12 12:24:24,251 | --- Completed get user id test ---
+2021-12-12 12:24:24,251 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:24:25,086 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:24:25,086 | --- Starting account insert and delete test ---
+2021-12-12 12:24:38,559 | --- Starting get user id test ---
+2021-12-12 12:24:38,699 | Result: 1
+2021-12-12 12:24:38,886 | --- Completed get user id test ---
+2021-12-12 12:24:38,886 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:24:40,308 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:24:40,308 | --- Starting account insert and delete test ---
+2021-12-12 12:24:55,589 | --- Starting get user id test ---
+2021-12-12 12:24:55,802 | Result: 1
+2021-12-12 12:24:56,215 | --- Completed get user id test ---
+2021-12-12 12:24:56,215 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:24:57,593 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:24:57,593 | --- Starting account insert and delete test ---
+2021-12-12 12:25:17,245 | --- Starting get user id test ---
+2021-12-12 12:25:17,398 | Result: 1
+2021-12-12 12:25:17,594 | --- Completed get user id test ---
+2021-12-12 12:25:17,594 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:25:19,099 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:25:19,099 | --- Starting account insert and delete test ---
+2021-12-12 12:27:02,639 | --- Starting get user id test ---
+2021-12-12 12:27:02,773 | Result: 1
+2021-12-12 12:27:02,948 | --- Completed get user id test ---
+2021-12-12 12:27:02,948 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:27:04,548 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:27:04,548 | --- Starting account insert and delete test ---
+2021-12-12 12:33:46,496 | --- Starting get user id test ---
+2021-12-12 12:33:46,629 | Result: 1
+2021-12-12 12:33:46,895 | --- Completed get user id test ---
+2021-12-12 12:33:46,895 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:33:48,056 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:33:48,056 | --- Starting account insert and delete test ---
+2021-12-12 12:35:07,508 | --- Starting get user id test ---
+2021-12-12 12:35:07,675 | Result: 1
+2021-12-12 12:35:07,823 | --- Completed get user id test ---
+2021-12-12 12:35:07,824 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:35:08,979 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:35:08,979 | --- Starting account insert and delete test ---
+2021-12-12 12:35:22,342 | --- Starting get user id test ---
+2021-12-12 12:35:22,630 | Result: 1
+2021-12-12 12:35:22,900 | --- Completed get user id test ---
+2021-12-12 12:35:22,900 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:35:23,976 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:35:23,976 | --- Starting account insert and delete test ---
+2021-12-12 12:35:42,902 | --- Starting get user id test ---
+2021-12-12 12:35:43,082 | Result: 1
+2021-12-12 12:35:43,290 | --- Completed get user id test ---
+2021-12-12 12:35:43,290 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:35:44,479 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:35:44,479 | --- Starting account insert and delete test ---
+2021-12-12 12:39:52,872 | --- Starting get user id test ---
+2021-12-12 12:39:53,077 | Result: 1
+2021-12-12 12:39:53,388 | --- Completed get user id test ---
+2021-12-12 12:39:53,388 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:39:54,437 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:39:54,437 | --- Starting account insert and delete test ---
+2021-12-12 12:40:16,824 | --- Starting get user id test ---
+2021-12-12 12:40:17,006 | Result: 1
+2021-12-12 12:40:17,406 | --- Completed get user id test ---
+2021-12-12 12:40:17,406 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:40:18,545 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:40:18,545 | --- Starting account insert and delete test ---
+2021-12-12 12:40:44,030 | --- Starting get user id test ---
+2021-12-12 12:40:44,253 | Result: 1
+2021-12-12 12:40:44,673 | --- Completed get user id test ---
+2021-12-12 12:40:44,674 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:40:45,482 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:40:45,482 | --- Starting account insert and delete test ---
+2021-12-12 12:41:03,414 | --- Starting get user id test ---
+2021-12-12 12:41:03,639 | Result: 1
+2021-12-12 12:41:03,904 | --- Completed get user id test ---
+2021-12-12 12:41:03,904 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 12:41:05,222 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 12:41:05,223 | --- Starting account insert and delete test ---
+2021-12-12 13:33:08,979 | --- Starting get user id test ---
+2021-12-12 13:33:09,145 | Result: 1
+2021-12-12 13:33:09,347 | --- Completed get user id test ---
+2021-12-12 13:33:09,347 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:33:10,433 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:33:10,433 | --- Starting account insert and delete test ---
+2021-12-12 13:35:48,660 | --- Starting get user id test ---
+2021-12-12 13:35:48,793 | Result: 1
+2021-12-12 13:35:49,030 | --- Completed get user id test ---
+2021-12-12 13:35:49,030 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:35:49,919 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:35:49,919 | --- Starting account insert and delete test ---
+2021-12-12 13:39:32,431 | --- Starting get user id test ---
+2021-12-12 13:39:32,578 | Result: 1
+2021-12-12 13:39:32,796 | --- Completed get user id test ---
+2021-12-12 13:39:32,796 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:39:33,719 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:39:33,720 | --- Starting account insert and delete test ---
+2021-12-12 13:39:56,369 | --- Starting get user id test ---
+2021-12-12 13:39:56,560 | Result: 1
+2021-12-12 13:39:56,879 | --- Completed get user id test ---
+2021-12-12 13:39:56,879 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:39:57,914 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:39:57,915 | --- Starting account insert and delete test ---
+2021-12-12 13:40:11,228 | --- Starting get user id test ---
+2021-12-12 13:40:11,385 | Result: 1
+2021-12-12 13:40:11,691 | --- Completed get user id test ---
+2021-12-12 13:40:11,691 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:40:12,831 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:40:12,831 | --- Starting account insert and delete test ---
+2021-12-12 13:40:24,555 | --- Starting get user id test ---
+2021-12-12 13:40:24,845 | Result: 1
+2021-12-12 13:40:25,259 | --- Completed get user id test ---
+2021-12-12 13:40:25,259 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:40:26,548 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:40:26,549 | --- Starting account insert and delete test ---
+2021-12-12 13:41:01,879 | --- Starting get user id test ---
+2021-12-12 13:41:02,080 | Result: 1
+2021-12-12 13:41:02,274 | --- Completed get user id test ---
+2021-12-12 13:41:02,274 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:41:03,406 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:41:03,406 | --- Starting account insert and delete test ---
+2021-12-12 13:41:18,888 | --- Starting get user id test ---
+2021-12-12 13:41:19,037 | Result: 1
+2021-12-12 13:41:19,399 | --- Completed get user id test ---
+2021-12-12 13:41:19,399 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:41:20,662 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:41:20,662 | --- Starting account insert and delete test ---
+2021-12-12 13:41:41,463 | --- Starting get user id test ---
+2021-12-12 13:41:41,822 | Result: 1
+2021-12-12 13:41:42,267 | --- Completed get user id test ---
+2021-12-12 13:41:42,267 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:41:43,636 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:41:43,636 | --- Starting account insert and delete test ---
+2021-12-12 13:45:23,740 | --- Starting get user id test ---
+2021-12-12 13:45:24,625 | Result: 1
+2021-12-12 13:45:24,937 | --- Completed get user id test ---
+2021-12-12 13:45:24,938 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:45:26,671 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:45:26,671 | --- Starting account insert and delete test ---
+2021-12-12 13:46:27,190 | --- Starting get user id test ---
+2021-12-12 13:46:27,581 | Result: 1
+2021-12-12 13:46:28,111 | --- Completed get user id test ---
+2021-12-12 13:46:28,111 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:46:29,464 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:46:29,464 | --- Starting account insert and delete test ---
+2021-12-12 13:47:27,254 | --- Starting get user id test ---
+2021-12-12 13:47:27,536 | Result: 1
+2021-12-12 13:47:28,137 | --- Completed get user id test ---
+2021-12-12 13:47:28,137 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:47:30,460 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:47:30,460 | --- Starting account insert and delete test ---
+2021-12-12 13:49:12,023 | --- Starting get user id test ---
+2021-12-12 13:49:12,255 | Result: 1
+2021-12-12 13:49:12,476 | --- Completed get user id test ---
+2021-12-12 13:49:12,476 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:49:14,424 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:49:14,424 | --- Starting account insert and delete test ---
+2021-12-12 13:49:36,084 | --- Starting get user id test ---
+2021-12-12 13:49:36,523 | Result: 1
+2021-12-12 13:49:36,698 | --- Completed get user id test ---
+2021-12-12 13:49:36,698 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:49:39,202 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:49:39,203 | --- Starting account insert and delete test ---
+2021-12-12 13:50:10,334 | --- Starting get user id test ---
+2021-12-12 13:50:11,373 | Result: 1
+2021-12-12 13:50:11,653 | --- Completed get user id test ---
+2021-12-12 13:50:11,653 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:50:13,511 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:50:13,511 | --- Starting account insert and delete test ---
+2021-12-12 13:51:22,972 | --- Starting get user id test ---
+2021-12-12 13:51:23,263 | Result: 1
+2021-12-12 13:51:23,425 | --- Completed get user id test ---
+2021-12-12 13:51:23,425 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:51:25,504 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:51:25,504 | --- Starting account insert and delete test ---
+2021-12-12 13:58:05,087 | --- Starting get user id test ---
+2021-12-12 13:58:05,227 | Result: 1
+2021-12-12 13:58:05,479 | --- Completed get user id test ---
+2021-12-12 13:58:05,479 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:58:06,555 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:58:06,555 | --- Starting account insert and delete test ---
+2021-12-12 13:59:13,057 | --- Starting get user id test ---
+2021-12-12 13:59:13,317 | Result: 1
+2021-12-12 13:59:13,553 | --- Completed get user id test ---
+2021-12-12 13:59:13,553 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 13:59:14,528 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 13:59:14,528 | --- Starting account insert and delete test ---
+2021-12-12 14:04:51,764 | --- Starting get user id test ---
+2021-12-12 14:04:52,094 | Result: 1
+2021-12-12 14:04:52,383 | --- Completed get user id test ---
+2021-12-12 14:04:52,383 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:04:53,797 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:04:53,797 | --- Starting account insert and delete test ---
+2021-12-12 14:06:04,335 | --- Starting get user id test ---
+2021-12-12 14:06:04,464 | Result: 1
+2021-12-12 14:06:04,740 | --- Completed get user id test ---
+2021-12-12 14:06:04,740 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:06:06,186 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:06:06,186 | --- Starting account insert and delete test ---
+2021-12-12 14:07:43,650 | --- Starting get user id test ---
+2021-12-12 14:07:43,742 | Result: 1
+2021-12-12 14:07:44,031 | --- Completed get user id test ---
+2021-12-12 14:07:44,031 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:07:45,345 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:07:45,346 | --- Starting account insert and delete test ---
+2021-12-12 14:12:25,219 | --- Starting get user id test ---
+2021-12-12 14:12:25,330 | Result: 1
+2021-12-12 14:12:25,510 | --- Completed get user id test ---
+2021-12-12 14:12:25,510 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:12:26,748 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:12:26,748 | --- Starting account insert and delete test ---
+2021-12-12 14:13:52,817 | --- Starting get user id test ---
+2021-12-12 14:13:52,946 | Result: 1
+2021-12-12 14:13:53,084 | --- Completed get user id test ---
+2021-12-12 14:13:53,084 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:13:54,004 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:13:54,004 | --- Starting account insert and delete test ---
+2021-12-12 14:16:28,700 | --- Starting get user id test ---
+2021-12-12 14:16:28,926 | Result: 1
+2021-12-12 14:16:29,306 | --- Completed get user id test ---
+2021-12-12 14:16:29,306 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:16:30,269 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:16:30,269 | --- Starting account insert and delete test ---
+2021-12-12 14:17:14,582 | --- Starting get user id test ---
+2021-12-12 14:17:14,851 | Result: 1
+2021-12-12 14:17:14,998 | --- Completed get user id test ---
+2021-12-12 14:17:14,998 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:17:16,601 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:17:16,601 | --- Starting account insert and delete test ---
+2021-12-12 14:20:27,593 | --- Starting get user id test ---
+2021-12-12 14:20:27,714 | Result: 1
+2021-12-12 14:20:27,957 | --- Completed get user id test ---
+2021-12-12 14:20:27,958 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:20:28,938 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:20:28,938 | --- Starting account insert and delete test ---
+2021-12-12 14:22:26,938 | --- Starting get user id test ---
+2021-12-12 14:22:27,130 | Result: 1
+2021-12-12 14:22:27,381 | --- Completed get user id test ---
+2021-12-12 14:22:27,381 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:22:28,542 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:22:28,542 | --- Starting account insert and delete test ---
+2021-12-12 14:24:06,272 | --- Starting get user id test ---
+2021-12-12 14:24:06,417 | Result: 1
+2021-12-12 14:24:06,664 | --- Completed get user id test ---
+2021-12-12 14:24:06,664 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:24:07,791 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:24:07,791 | --- Starting account insert and delete test ---
+2021-12-12 14:24:21,388 | --- Starting get user id test ---
+2021-12-12 14:24:21,595 | Result: 1
+2021-12-12 14:24:21,869 | --- Completed get user id test ---
+2021-12-12 14:24:21,869 | --- Starting get nonexistant user id test ---
+2021-12-12 14:24:22,169 | Result: -1
+2021-12-12 14:24:22,169 | --- Completed get nonexistant user id test ---
+2021-12-12 14:24:22,170 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:24:23,247 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:24:23,247 | --- Starting account insert and delete test ---
+2021-12-12 14:28:10,355 | --- Starting get user id test ---
+2021-12-12 14:28:10,530 | Result: 1
+2021-12-12 14:28:34,722 | --- Starting get user id test ---
+2021-12-12 14:28:34,867 | Result: 1
+2021-12-12 14:28:35,076 | --- Completed get user id test ---
+2021-12-12 14:28:35,077 | --- Starting get nonexistant user id test ---
+2021-12-12 14:28:35,090 | Result: -1
+2021-12-12 14:28:35,114 | --- Completed get nonexistant user id test ---
+2021-12-12 14:28:35,114 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:28:36,047 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:28:36,047 | --- Starting account insert and delete test ---
+2021-12-12 14:28:54,949 | --- Starting get user id test ---
+2021-12-12 14:28:55,060 | Result: 1
+2021-12-12 14:28:55,264 | --- Completed get user id test ---
+2021-12-12 14:28:55,264 | --- Starting get nonexistant user id test ---
+2021-12-12 14:28:55,277 | Result: -1
+2021-12-12 14:28:55,277 | --- Completed get nonexistant user id test ---
+2021-12-12 14:28:55,277 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:28:56,233 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:28:56,233 | --- Starting account insert and delete test ---
+2021-12-12 14:29:13,967 | --- Starting get user id test ---
+2021-12-12 14:29:14,122 | Result: 1
+2021-12-12 14:29:14,491 | --- Completed get user id test ---
+2021-12-12 14:29:14,492 | --- Starting get nonexistant user id test ---
+2021-12-12 14:29:14,582 | Result: -1
+2021-12-12 14:29:14,582 | --- Completed get nonexistant user id test ---
+2021-12-12 14:29:14,582 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:29:15,746 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:29:15,746 | --- Starting account insert and delete test ---
+2021-12-12 14:30:01,699 | --- Starting get user id test ---
+2021-12-12 14:30:01,848 | Result: 1
+2021-12-12 14:30:02,146 | --- Completed get user id test ---
+2021-12-12 14:30:02,147 | --- Starting get nonexistant user id test ---
+2021-12-12 14:30:02,164 | Result: -1
+2021-12-12 14:30:02,164 | --- Completed get nonexistant user id test ---
+2021-12-12 14:30:02,164 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:30:03,164 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:30:03,164 | --- Starting account insert and delete test ---
+2021-12-12 14:30:17,350 | --- Starting get user id test ---
+2021-12-12 14:30:18,103 | Result: 1
+2021-12-12 14:30:18,538 | --- Completed get user id test ---
+2021-12-12 14:30:18,538 | --- Starting get nonexistant user id test ---
+2021-12-12 14:30:18,552 | Result: -1
+2021-12-12 14:30:18,553 | --- Completed get nonexistant user id test ---
+2021-12-12 14:30:18,553 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:30:19,587 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:30:19,587 | --- Starting account insert and delete test ---
+2021-12-12 14:30:40,746 | --- Starting get user id test ---
+2021-12-12 14:30:40,905 | Result: 1
+2021-12-12 14:30:41,098 | --- Completed get user id test ---
+2021-12-12 14:30:41,098 | --- Starting get nonexistant user id test ---
+2021-12-12 14:30:41,231 | Result: -1
+2021-12-12 14:30:41,231 | --- Completed get nonexistant user id test ---
+2021-12-12 14:30:41,232 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:30:42,570 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:30:42,570 | --- Starting account insert and delete test ---
+2021-12-12 14:32:16,829 | --- Starting get user id test ---
+2021-12-12 14:32:16,977 | Result: 1
+2021-12-12 14:32:17,230 | --- Completed get user id test ---
+2021-12-12 14:32:17,230 | --- Starting get nonexistant user id test ---
+2021-12-12 14:32:17,244 | Result: -1
+2021-12-12 14:32:17,244 | --- Completed get nonexistant user id test ---
+2021-12-12 14:32:17,244 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:32:18,650 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:32:18,651 | --- Starting account insert and delete test ---
+2021-12-12 14:33:52,343 | --- Starting get user id test ---
+2021-12-12 14:33:52,481 | Result: 1
+2021-12-12 14:33:52,753 | --- Completed get user id test ---
+2021-12-12 14:33:52,753 | --- Starting get nonexistant user id test ---
+2021-12-12 14:33:52,854 | Result: -1
+2021-12-12 14:33:52,854 | --- Completed get nonexistant user id test ---
+2021-12-12 14:33:52,854 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:33:53,752 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:33:53,752 | --- Starting account insert and delete test ---
+2021-12-12 14:34:37,542 | --- Starting get user id test ---
+2021-12-12 14:34:37,649 | Result: 1
+2021-12-12 14:34:38,054 | --- Completed get user id test ---
+2021-12-12 14:34:38,054 | --- Starting get nonexistant user id test ---
+2021-12-12 14:34:38,244 | Result: -1
+2021-12-12 14:34:38,244 | --- Completed get nonexistant user id test ---
+2021-12-12 14:34:38,245 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 14:34:39,385 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 14:34:39,385 | --- Starting account insert and delete test ---
+2021-12-12 14:35:48,825 | --- Starting get user id test ---
+2021-12-12 14:36:12,599 | --- Starting get user id test ---
+2021-12-12 17:06:03,125 | --- Starting get user id test ---
+2021-12-12 17:07:00,128 | --- Starting get nonexistant user id test ---
+2021-12-12 17:10:03,889 | --- Starting get user id test ---
+2021-12-12 17:10:46,060 | --- Starting get user id test ---
+2021-12-12 17:10:46,387 | Result: 1
+2021-12-12 17:10:46,631 | --- Completed get user id test ---
+2021-12-12 17:10:56,183 | --- Starting get user id test ---
+2021-12-12 17:10:56,323 | Result: 2
+2021-12-12 17:10:56,455 | --- Completed get user id test ---
+2021-12-12 17:10:57,793 | --- Starting get user id test ---
+2021-12-12 17:10:58,212 | Result: 3
+2021-12-12 17:10:58,369 | --- Completed get user id test ---
+2021-12-12 17:10:59,697 | --- Starting get user id test ---
+2021-12-12 17:10:59,877 | Result: 4
+2021-12-12 17:10:59,998 | --- Completed get user id test ---
+2021-12-12 17:12:06,973 | --- Starting get user id test ---
+2021-12-12 17:12:07,265 | Result: 5
+2021-12-12 17:12:07,515 | --- Completed get user id test ---
+2021-12-12 17:12:07,515 | --- Starting get nonexistant user id test ---
+2021-12-12 17:12:07,581 | Result: -1
+2021-12-12 17:12:07,581 | --- Completed get nonexistant user id test ---
+2021-12-12 17:12:10,295 | --- Starting get user id test ---
+2021-12-12 17:12:10,955 | Result: 6
+2021-12-12 17:12:11,122 | --- Completed get user id test ---
+2021-12-12 17:12:11,123 | --- Starting get nonexistant user id test ---
+2021-12-12 17:12:11,136 | Result: -1
+2021-12-12 17:12:11,136 | --- Completed get nonexistant user id test ---
+2021-12-12 17:13:37,974 | --- Starting get nonexistant user id test ---
+2021-12-12 17:13:37,989 | Result: -1
+2021-12-12 17:13:37,990 | --- Completed get nonexistant user id test ---
+2021-12-12 17:13:43,753 | --- Starting get user id test ---
+2021-12-12 17:13:44,004 | Result: 7
+2021-12-12 17:13:44,229 | --- Completed get user id test ---
+2021-12-12 17:13:51,094 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 17:13:52,116 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 17:33:49,932 | --- Starting transaction insert and delete test ---
+2021-12-12 17:34:04,795 | --- Starting transaction insert and delete test ---
+2021-12-12 17:45:13,537 | --- Starting get user id test ---
+2021-12-12 17:45:13,708 | Result: 13
+2021-12-12 17:45:13,931 | --- Completed get user id test ---
+2021-12-12 17:45:16,011 | --- Starting get nonexistant user id test ---
+2021-12-12 17:45:16,029 | Result: -1
+2021-12-12 17:45:16,029 | --- Completed get nonexistant user id test ---
+2021-12-12 17:45:17,985 | --- Starting testDeleteFromUserTable test ---
+2021-12-12 17:45:19,016 | --- Completed testDeleteFromUserTable test --- 
+2021-12-12 17:45:25,304 | --- Starting get account aid test ---
+2021-12-12 17:45:25,665 | Result: 1
+2021-12-12 17:45:25,988 | --- Completed get account aid test ---
+2021-12-12 17:45:36,540 | --- Starting transaction insert and delete test ---
+2021-12-12 17:45:40,301 | --- Starting get account tags test ---
+2021-12-12 17:45:47,318 | --- Starting account insert and delete test ---
+2021-12-12 17:50:53,754 | --- Starting get user uid test ---
+2021-12-12 17:50:54,185 | --- Completed get user uid test ---
+2021-12-12 17:52:04,064 | --- Starting account insert and delete test ---
+2021-12-12 17:52:26,979 | --- Starting account insert and delete test ---
+2021-12-12 17:53:35,942 | --- Starting get user id test ---
+2021-12-12 17:53:36,210 | Result: 24
+2021-12-12 17:53:36,482 | --- Completed get user id test ---
+2021-12-12 17:53:39,495 | --- Starting get nonexistant user id test ---
+2021-12-12 17:53:39,507 | Result: -1
+2021-12-12 17:53:39,507 | --- Completed get nonexistant user id test ---
+2021-12-12 17:53:42,635 | --- Starting delete from user table test ---
+2021-12-12 17:53:43,511 | --- Completed delete from user table test --- 
+2021-12-12 17:53:48,271 | --- Starting get user uid test ---
+2021-12-12 17:53:48,638 | --- Completed get user uid test ---
+2021-12-12 17:54:17,713 | --- Starting account insert and delete test ---
+2021-12-12 17:54:26,097 | --- Starting account insert and delete test ---
+2021-12-12 17:56:01,033 | --- Starting get account tags test ---
+2021-12-12 17:56:24,986 | --- Starting transaction insert and delete test ---
+2021-12-12 17:56:25,789 | Results: [('Apples',), ('Cheese',), ('Grapes',), ('Juice',)]
+2021-12-12 17:56:25,789 | --- Completed transaction insert and delete test ---
+2021-12-12 17:56:36,167 | --- Starting account insert and delete test ---
+2021-12-12 17:57:21,042 | --- Starting account insert and delete test ---
+2021-12-12 17:58:00,751 | --- Starting account insert and delete test ---
+2021-12-12 17:59:43,316 | --- Starting account insert and delete test ---
+2021-12-12 18:06:54,620 | --- Starting account insert and delete test ---
+2021-12-12 18:07:38,432 | --- Starting account insert and delete test ---
+2021-12-12 18:07:40,102 | --- Completed account insert and delete test ---
+2021-12-12 18:07:46,940 | --- Starting account insert and delete test ---
+2021-12-12 18:07:48,396 | --- Completed account insert and delete test ---
+2021-12-12 18:30:08,109 | --- Starting transaction insert and delete test ---
+2021-12-12 18:30:08,935 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-12 18:30:08,935 | --- Completed transaction insert and delete test ---
+2021-12-12 18:30:40,194 | --- Starting transaction insert and delete test ---
+2021-12-12 18:30:41,450 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-12 18:30:41,450 | --- Completed transaction insert and delete test ---
+2021-12-12 18:33:11,428 | --- Starting get account tags test ---
+2021-12-12 18:33:12,086 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-12 18:33:12,640 | --- Completed get account tags test ---
+2021-12-12 18:42:11,092 | --- Starting user exists test ---
+2021-12-12 18:42:11,718 | --- Completed user exists test ---
+2021-12-12 20:16:09,211 | --- Starting user exists test ---
+2021-12-12 20:16:09,701 | --- Completed user exists test ---
+2021-12-12 20:16:09,812 | --- Starting get user id test ---
+2021-12-12 20:16:09,945 | Result: 4
+2021-12-12 20:16:10,117 | --- Completed get user id test ---
+2021-12-12 20:16:10,239 | --- Starting get nonexistant user id test ---
+2021-12-12 20:16:10,256 | Result: -1
+2021-12-12 20:16:10,256 | --- Completed get nonexistant user id test ---
+2021-12-12 20:16:10,402 | --- Starting delete from user table test ---
+2021-12-12 20:16:11,228 | --- Completed delete from user table test --- 
+2021-12-12 20:16:11,350 | --- Starting account exists for user test ---
+2021-12-12 20:16:11,713 | --- Completed account exists for user test ---
+2021-12-12 20:16:11,810 | --- Starting get account aid test ---
+2021-12-12 20:16:12,030 | Result: 2
+2021-12-12 20:16:12,264 | --- Completed get account aid test ---
+2021-12-12 20:16:12,657 | --- Starting account insert and delete test ---
+2021-12-12 20:16:13,875 | --- Completed account insert and delete test ---
+2021-12-12 20:16:13,988 | --- Starting transaction insert and delete test ---
+2021-12-12 20:16:14,941 | --- Completed transaction insert and delete test ---
+2021-12-12 20:16:15,057 | --- Starting get account tags test ---
+2021-12-12 20:16:15,593 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-12 20:16:16,083 | --- Completed get account tags test ---
+2021-12-12 20:18:39,390 | --- Starting get account aid test ---
+2021-12-12 20:18:39,807 | Result: 8
+2021-12-12 20:18:40,425 | --- Completed get account aid test ---
+2021-12-12 20:19:33,100 | --- Starting account exists for user test ---
+2021-12-12 20:19:36,057 | --- Completed account exists for user test ---
+2021-12-13 22:28:38,165 | --- Started get total amount test ---
+2021-12-13 22:29:05,853 | --- Started get total amount test ---
+2021-12-13 22:31:06,446 | --- Started get total amount test ---
+2021-12-13 22:31:58,798 | --- Starting user exists test ---
+2021-12-13 22:31:59,265 | --- Completed user exists test ---
+2021-12-13 22:32:06,774 | --- Started get total amount test ---
+2021-12-13 22:33:01,205 | --- Started get total amount test ---
+2021-12-13 22:33:17,033 | --- Starting user exists test ---
+2021-12-13 22:33:17,664 | --- Completed user exists test ---
+2021-12-13 22:33:17,823 | --- Starting get user id test ---
+2021-12-13 22:33:17,958 | Result: 23
+2021-12-13 22:33:18,088 | --- Completed get user id test ---
+2021-12-13 22:33:18,216 | --- Starting get nonexistant user id test ---
+2021-12-13 22:33:18,233 | Result: -1
+2021-12-13 22:33:18,233 | --- Completed get nonexistant user id test ---
+2021-12-13 22:33:18,342 | --- Starting delete from user table test ---
+2021-12-13 22:33:19,470 | --- Completed delete from user table test --- 
+2021-12-13 22:33:19,587 | --- Starting account exists for user test ---
+2021-12-13 22:33:21,314 | --- Completed account exists for user test ---
+2021-12-13 22:33:21,422 | --- Starting get account aid test ---
+2021-12-13 22:33:21,687 | Result: 13
+2021-12-13 22:33:21,961 | --- Completed get account aid test ---
+2021-12-13 22:33:22,060 | --- Starting get account tags test ---
+2021-12-13 22:33:22,960 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-13 22:33:23,309 | --- Completed get account tags test ---
+2021-12-13 22:33:23,428 | --- Starting account insert and delete test ---
+2021-12-13 22:33:24,516 | --- Completed account insert and delete test ---
+2021-12-13 22:33:24,632 | --- Starting transaction insert and delete test ---
+2021-12-13 22:33:25,584 | --- Completed transaction insert and delete test ---
+2021-12-13 22:33:25,797 | --- Started get total amount test ---
+2021-12-13 22:35:23,118 | --- Started get total amount test ---
+2021-12-13 22:36:49,012 | --- Started get total amount test ---
+2021-12-13 22:36:50,291 | Error: assert -1 == 500
+ +  where -1 = <bound method DatabaseHelper.getTotalTransactionAmount of <DatabaseHelper.DatabaseHelper object at 0x000001389E7F6580>>('a1')
+ +    where <bound method DatabaseHelper.getTotalTransactionAmount of <DatabaseHelper.DatabaseHelper object at 0x000001389E7F6580>> = <DatabaseHelper.DatabaseHelper object at 0x000001389E7F6580>.getTotalTransactionAmount
+2021-12-13 22:36:50,593 | --- Completed get total amount test ---
+2021-12-13 22:51:18,985 | --- Starting transaction insert and delete test ---
+2021-12-13 22:51:20,432 | --- Completed transaction insert and delete test ---
+2021-12-13 22:52:28,330 | --- Started get total amount test ---
+2021-12-13 22:52:29,668 | Error: assert -1 == 500
+ +  where -1 = <bound method DatabaseHelper.getTotalTransactionAmount of <DatabaseHelper.DatabaseHelper object at 0x0000019249EC7490>>('a1')
+ +    where <bound method DatabaseHelper.getTotalTransactionAmount of <DatabaseHelper.DatabaseHelper object at 0x0000019249EC7490>> = <DatabaseHelper.DatabaseHelper object at 0x0000019249EC7490>.getTotalTransactionAmount
+2021-12-13 22:52:29,975 | --- Completed get total amount test ---
+2021-12-13 23:05:08,453 | --- Started get total amount test ---
+2021-12-13 23:05:09,403 | --- Completed get total amount test ---
+2021-12-13 23:27:34,265 | --- Starting user exists test ---
+2021-12-13 23:27:34,798 | --- Completed user exists test ---
+2021-12-13 23:27:34,958 | --- Starting get user id test ---
+2021-12-13 23:27:35,099 | Result: 4
+2021-12-13 23:27:35,240 | --- Completed get user id test ---
+2021-12-13 23:27:35,352 | --- Starting get nonexistant user id test ---
+2021-12-13 23:27:35,366 | Result: -1
+2021-12-13 23:27:35,367 | --- Completed get nonexistant user id test ---
+2021-12-13 23:27:35,473 | --- Starting delete from user table test ---
+2021-12-13 23:27:36,372 | --- Completed delete from user table test --- 
+2021-12-13 23:27:36,499 | --- Starting account exists for user test ---
+2021-12-13 23:27:37,246 | --- Completed account exists for user test ---
+2021-12-13 23:27:37,371 | --- Starting get account aid test ---
+2021-12-13 23:27:37,686 | Result: 4
+2021-12-13 23:27:37,968 | --- Completed get account aid test ---
+2021-12-13 23:27:38,089 | --- Starting get account tags test ---
+2021-12-13 23:27:38,797 | --- Starting account insert and delete test ---
+2021-12-13 23:27:40,365 | --- Completed account insert and delete test ---
+2021-12-13 23:27:40,493 | --- Starting transaction insert and delete test ---
+2021-12-13 23:27:40,870 | --- Started get total amount test ---
+2021-12-13 23:27:59,343 | --- Starting user exists test ---
+2021-12-13 23:27:59,780 | --- Completed user exists test ---
+2021-12-13 23:28:00,054 | --- Starting get user id test ---
+2021-12-13 23:28:00,265 | Result: 15
+2021-12-13 23:28:00,458 | --- Completed get user id test ---
+2021-12-13 23:28:00,681 | --- Starting get nonexistant user id test ---
+2021-12-13 23:28:00,706 | Result: -1
+2021-12-13 23:28:00,707 | --- Completed get nonexistant user id test ---
+2021-12-13 23:28:00,922 | --- Starting delete from user table test ---
+2021-12-13 23:28:02,186 | --- Completed delete from user table test --- 
+2021-12-13 23:28:02,403 | --- Starting account exists for user test ---
+2021-12-13 23:28:03,324 | --- Completed account exists for user test ---
+2021-12-13 23:28:03,535 | --- Starting get account aid test ---
+2021-12-13 23:28:04,156 | Result: 9
+2021-12-13 23:28:04,534 | --- Completed get account aid test ---
+2021-12-13 23:28:04,755 | --- Starting get account tags test ---
+2021-12-13 23:28:05,870 | --- Starting account insert and delete test ---
+2021-12-13 23:28:07,915 | --- Completed account insert and delete test ---
+2021-12-13 23:28:08,126 | --- Starting transaction insert and delete test ---
+2021-12-13 23:28:08,789 | --- Started get total amount test ---
+2021-12-13 23:28:36,377 | --- Starting get account tags test ---
+2021-12-13 23:29:25,310 | --- Starting user exists test ---
+2021-12-13 23:29:26,251 | --- Completed user exists test ---
+2021-12-13 23:29:26,521 | --- Starting get user id test ---
+2021-12-13 23:29:26,818 | Result: 2
+2021-12-13 23:29:27,137 | --- Completed get user id test ---
+2021-12-13 23:29:27,295 | --- Starting get nonexistant user id test ---
+2021-12-13 23:29:27,328 | Result: -1
+2021-12-13 23:29:27,329 | --- Completed get nonexistant user id test ---
+2021-12-13 23:29:27,453 | --- Starting delete from user table test ---
+2021-12-13 23:29:28,477 | --- Completed delete from user table test --- 
+2021-12-13 23:29:28,598 | --- Starting account exists for user test ---
+2021-12-13 23:29:29,348 | --- Completed account exists for user test ---
+2021-12-13 23:29:29,489 | --- Starting get account aid test ---
+2021-12-13 23:29:29,772 | Result: 2
+2021-12-13 23:29:30,071 | --- Completed get account aid test ---
+2021-12-13 23:29:30,231 | --- Starting get account tags test ---
+2021-12-13 23:29:31,845 | --- Starting account insert and delete test ---
+2021-12-13 23:29:33,460 | --- Completed account insert and delete test ---
+2021-12-13 23:29:33,616 | --- Starting transaction insert and delete test ---
+2021-12-13 23:29:34,783 | --- Started get total amount test ---
+2021-12-13 23:32:11,579 | --- Starting user exists test ---
+2021-12-13 23:32:12,220 | --- Completed user exists test ---
+2021-12-13 23:32:12,418 | --- Starting get user id test ---
+2021-12-13 23:32:12,552 | Result: 2
+2021-12-13 23:32:12,711 | --- Completed get user id test ---
+2021-12-13 23:32:12,864 | --- Starting get nonexistant user id test ---
+2021-12-13 23:32:12,881 | Result: -1
+2021-12-13 23:32:12,881 | --- Completed get nonexistant user id test ---
+2021-12-13 23:32:13,020 | --- Starting delete from user table test ---
+2021-12-13 23:32:14,031 | --- Completed delete from user table test --- 
+2021-12-13 23:32:14,203 | --- Starting account exists for user test ---
+2021-12-13 23:32:15,014 | --- Completed account exists for user test ---
+2021-12-13 23:32:15,161 | --- Starting get account aid test ---
+2021-12-13 23:32:15,555 | Result: 2
+2021-12-13 23:32:15,853 | --- Completed get account aid test ---
+2021-12-13 23:32:15,982 | --- Starting get account tags test ---
+2021-12-13 23:32:16,667 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-13 23:32:16,994 | --- Completed get account tags test ---
+2021-12-13 23:32:17,133 | --- Starting account insert and delete test ---
+2021-12-13 23:32:18,353 | --- Completed account insert and delete test ---
+2021-12-13 23:32:18,488 | --- Starting transaction insert and delete test ---
+2021-12-13 23:32:19,321 | --- Completed transaction insert and delete test ---
+2021-12-13 23:32:19,452 | --- Started get total amount test ---
+2021-12-13 23:32:20,295 | --- Completed get total amount test ---
+2021-12-14 15:35:26,164 | --- Starting user exists test ---
+2021-12-14 15:35:26,555 | --- Completed user exists test ---
+2021-12-14 15:35:26,622 | --- Starting get user id test ---
+2021-12-14 15:35:26,785 | Result: 2
+2021-12-14 15:35:26,893 | --- Completed get user id test ---
+2021-12-14 15:35:26,924 | --- Starting get nonexistant user id test ---
+2021-12-14 15:35:26,928 | Result: -1
+2021-12-14 15:35:26,928 | --- Completed get nonexistant user id test ---
+2021-12-14 15:35:26,973 | --- Starting delete from user table test ---
+2021-12-14 15:35:27,837 | --- Completed delete from user table test --- 
+2021-12-14 15:35:27,875 | --- Starting account exists for user test ---
+2021-12-14 15:35:28,324 | --- Completed account exists for user test ---
+2021-12-14 15:35:28,359 | --- Starting get account aid test ---
+2021-12-14 15:35:28,703 | Result: 2
+2021-12-14 15:35:29,006 | --- Completed get account aid test ---
+2021-12-14 15:35:29,047 | --- Starting get account tags test ---
+2021-12-14 15:35:29,656 | --- Starting account insert and delete test ---
+2021-12-14 15:35:30,886 | --- Completed account insert and delete test ---
+2021-12-14 15:35:30,913 | --- Starting transaction insert and delete test ---
+2021-12-14 15:35:31,379 | --- Started get total amount test ---
+2021-12-14 15:38:11,347 | --- Starting get account tags test ---
+2021-12-14 15:40:50,464 | --- Starting get user id test ---
+2021-12-14 15:40:50,917 | Result: 13
+2021-12-14 15:40:51,048 | --- Completed get user id test ---
+2021-12-14 15:41:20,588 | --- Starting get account tags test ---
+2021-12-14 15:41:20,658 | --- Starting get account tags test ---
+2021-12-14 15:42:47,489 | --- Starting transaction insert and delete test ---
+2021-12-14 15:44:30,291 | --- Starting get account tags test ---
+2021-12-14 16:23:15,189 | --- Starting get account tags test ---
+2021-12-14 16:23:16,766 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 16:23:16,903 | --- Completed get account tags test ---
+2021-12-14 16:23:19,875 | --- Starting transaction insert and delete test ---
+2021-12-14 16:23:21,078 | --- Completed transaction insert and delete test ---
+2021-12-14 16:23:22,506 | --- Started get total amount test ---
+2021-12-14 16:23:23,639 | --- Completed get total amount test ---
+2021-12-14 20:52:08,365 | --- Started get total amount test ---
+2021-12-14 20:52:13,466 | --- Completed get total amount test ---
+2021-12-14 20:56:19,917 | --- Starting get user id test ---
+2021-12-14 20:56:20,654 | Result: 23
+2021-12-14 20:56:20,799 | --- Completed get user id test ---
+2021-12-14 20:56:20,913 | --- Starting user exists test ---
+2021-12-14 20:56:21,222 | --- Completed user exists test ---
+2021-12-14 20:56:21,317 | --- Starting get nonexistant user id test ---
+2021-12-14 20:56:21,337 | Result: -1
+2021-12-14 20:56:21,337 | --- Completed get nonexistant user id test ---
+2021-12-14 20:56:21,443 | --- Starting get account aid test ---
+2021-12-14 20:56:21,736 | Result: 18
+2021-12-14 20:56:22,050 | --- Completed get account aid test ---
+2021-12-14 20:56:22,162 | --- Starting account exists for user test ---
+2021-12-14 20:56:22,904 | --- Completed account exists for user test ---
+2021-12-14 20:56:23,013 | --- Starting get account tags test ---
+2021-12-14 20:56:24,393 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 20:56:24,672 | --- Completed get account tags test ---
+2021-12-14 20:56:24,793 | --- Starting delete from user table test ---
+2021-12-14 20:56:25,826 | --- Completed delete from user table test --- 
+2021-12-14 20:56:25,943 | --- Starting account insert and delete test ---
+2021-12-14 20:56:27,198 | --- Completed account insert and delete test ---
+2021-12-14 20:56:27,386 | --- Starting transaction insert and delete test ---
+2021-12-14 20:56:28,829 | --- Completed transaction insert and delete test ---
+2021-12-14 20:56:28,937 | --- Started get total amount test ---
+2021-12-14 20:56:30,523 | --- Completed get total amount test ---
+2021-12-14 20:56:31,666 | --- Starting get user id test ---
+2021-12-14 20:56:31,972 | Result: 34
+2021-12-14 20:56:32,307 | --- Completed get user id test ---
+2021-12-14 20:56:32,442 | --- Starting user exists test ---
+2021-12-14 20:56:32,713 | --- Completed user exists test ---
+2021-12-14 20:56:32,857 | --- Starting get nonexistant user id test ---
+2021-12-14 20:56:32,875 | Result: -1
+2021-12-14 20:56:32,875 | --- Completed get nonexistant user id test ---
+2021-12-14 20:56:33,010 | --- Starting get account aid test ---
+2021-12-14 20:56:33,454 | Result: 26
+2021-12-14 20:56:33,846 | --- Completed get account aid test ---
+2021-12-14 20:56:33,976 | --- Starting account exists for user test ---
+2021-12-14 20:56:34,697 | --- Completed account exists for user test ---
+2021-12-14 20:56:34,828 | --- Starting get account tags test ---
+2021-12-14 20:56:36,531 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 20:56:37,039 | --- Completed get account tags test ---
+2021-12-14 20:56:37,155 | --- Starting delete from user table test ---
+2021-12-14 20:56:38,037 | --- Completed delete from user table test --- 
+2021-12-14 20:56:38,150 | --- Starting account insert and delete test ---
+2021-12-14 20:56:40,093 | --- Completed account insert and delete test ---
+2021-12-14 20:56:40,205 | --- Starting transaction insert and delete test ---
+2021-12-14 20:56:41,881 | --- Completed transaction insert and delete test ---
+2021-12-14 20:56:42,017 | --- Started get total amount test ---
+2021-12-14 20:56:43,566 | --- Completed get total amount test ---
+2021-12-14 20:56:43,696 | --- Starting user exists test ---
+2021-12-14 20:56:44,014 | --- Completed user exists test ---
+2021-12-14 20:56:44,198 | --- Starting get user id test ---
+2021-12-14 20:56:44,514 | Result: 46
+2021-12-14 20:56:44,655 | --- Completed get user id test ---
+2021-12-14 20:56:44,797 | --- Starting get nonexistant user id test ---
+2021-12-14 20:56:44,816 | Result: -1
+2021-12-14 20:56:44,817 | --- Completed get nonexistant user id test ---
+2021-12-14 20:56:44,951 | --- Starting delete from user table test ---
+2021-12-14 20:56:46,685 | --- Completed delete from user table test --- 
+2021-12-14 20:56:46,821 | --- Starting account exists for user test ---
+2021-12-14 20:56:47,673 | --- Completed account exists for user test ---
+2021-12-14 20:56:47,781 | --- Starting get account aid test ---
+2021-12-14 20:56:48,100 | Result: 35
+2021-12-14 20:56:48,405 | --- Completed get account aid test ---
+2021-12-14 20:56:48,559 | --- Starting get account tags test ---
+2021-12-14 20:56:50,051 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 20:56:50,743 | --- Completed get account tags test ---
+2021-12-14 20:56:50,904 | --- Starting account insert and delete test ---
+2021-12-14 20:56:52,894 | --- Completed account insert and delete test ---
+2021-12-14 20:56:53,039 | --- Starting transaction insert and delete test ---
+2021-12-14 20:56:55,738 | --- Completed transaction insert and delete test ---
+2021-12-14 20:56:55,874 | --- Started get total amount test ---
+2021-12-14 20:56:57,847 | --- Completed get total amount test ---
+2021-12-14 21:29:39,260 | --- Starting get user id test ---
+2021-12-14 21:29:39,638 | Result: 56
+2021-12-14 21:29:39,912 | --- Completed get user id test ---
+2021-12-14 21:29:40,085 | --- Starting user exists test ---
+2021-12-14 21:29:40,627 | --- Completed user exists test ---
+2021-12-14 21:29:40,996 | --- Starting get nonexistant user id test ---
+2021-12-14 21:29:41,028 | Result: -1
+2021-12-14 21:29:41,028 | --- Completed get nonexistant user id test ---
+2021-12-14 21:29:41,218 | --- Starting get account aid test ---
+2021-12-14 21:29:41,641 | Result: 43
+2021-12-14 21:29:41,959 | --- Completed get account aid test ---
+2021-12-14 21:29:42,084 | --- Starting account exists for user test ---
+2021-12-14 21:29:43,029 | --- Completed account exists for user test ---
+2021-12-14 21:29:43,254 | --- Starting get account tags test ---
+2021-12-14 21:29:45,066 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:29:45,557 | --- Completed get account tags test ---
+2021-12-14 21:29:45,869 | --- Starting delete from user table test ---
+2021-12-14 21:29:47,011 | --- Completed delete from user table test --- 
+2021-12-14 21:29:47,150 | --- Starting account insert and delete test ---
+2021-12-14 21:29:48,915 | --- Completed account insert and delete test ---
+2021-12-14 21:29:49,027 | --- Starting transaction insert and delete test ---
+2021-12-14 21:29:50,767 | --- Completed transaction insert and delete test ---
+2021-12-14 21:29:50,920 | --- Started get total amount test ---
+2021-12-14 21:29:52,433 | --- Completed get total amount test ---
+2021-12-14 21:34:03,643 | --- Starting get user id test ---
+2021-12-14 21:34:03,911 | Result: 67
+2021-12-14 21:34:04,200 | --- Completed get user id test ---
+2021-12-14 21:34:04,304 | --- Starting user exists test ---
+2021-12-14 21:34:05,020 | --- Completed user exists test ---
+2021-12-14 21:34:05,139 | --- Starting get nonexistant user id test ---
+2021-12-14 21:34:05,162 | Result: -1
+2021-12-14 21:34:05,163 | --- Completed get nonexistant user id test ---
+2021-12-14 21:34:05,293 | --- Starting get account aid test ---
+2021-12-14 21:34:05,751 | Result: 51
+2021-12-14 21:34:05,956 | --- Completed get account aid test ---
+2021-12-14 21:34:06,081 | --- Starting account exists for user test ---
+2021-12-14 21:34:06,721 | --- Completed account exists for user test ---
+2021-12-14 21:34:06,835 | --- Starting get account tags test ---
+2021-12-14 21:34:08,409 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:34:08,671 | --- Completed get account tags test ---
+2021-12-14 21:34:08,770 | --- Starting delete from user table test ---
+2021-12-14 21:34:09,747 | --- Completed delete from user table test --- 
+2021-12-14 21:34:09,853 | --- Starting account insert and delete test ---
+2021-12-14 21:34:11,280 | --- Completed account insert and delete test ---
+2021-12-14 21:34:11,456 | --- Starting transaction insert and delete test ---
+2021-12-14 21:34:12,904 | --- Completed transaction insert and delete test ---
+2021-12-14 21:34:13,010 | --- Started get total amount test ---
+2021-12-14 21:34:14,854 | --- Completed get total amount test ---
+2021-12-14 21:36:51,832 | --- Starting get user id test ---
+2021-12-14 21:36:51,985 | Result: 78
+2021-12-14 21:36:52,341 | --- Completed get user id test ---
+2021-12-14 21:36:52,465 | --- Starting user exists test ---
+2021-12-14 21:36:52,903 | --- Completed user exists test ---
+2021-12-14 21:36:53,051 | --- Starting get nonexistant user id test ---
+2021-12-14 21:36:53,071 | Result: -1
+2021-12-14 21:36:53,072 | --- Completed get nonexistant user id test ---
+2021-12-14 21:36:53,239 | --- Starting get account aid test ---
+2021-12-14 21:36:53,508 | Result: 59
+2021-12-14 21:36:53,904 | --- Completed get account aid test ---
+2021-12-14 21:36:54,044 | --- Starting account exists for user test ---
+2021-12-14 21:36:55,000 | --- Completed account exists for user test ---
+2021-12-14 21:36:55,110 | --- Starting get account tags test ---
+2021-12-14 21:36:56,328 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:36:56,586 | --- Completed get account tags test ---
+2021-12-14 21:36:56,697 | --- Starting delete from user table test ---
+2021-12-14 21:36:57,521 | --- Starting get user id test ---
+2021-12-14 21:36:57,686 | Result: 86
+2021-12-14 21:36:57,847 | --- Completed get user id test ---
+2021-12-14 21:36:57,974 | --- Starting user exists test ---
+2021-12-14 21:36:58,311 | --- Completed user exists test ---
+2021-12-14 21:36:58,441 | --- Starting get nonexistant user id test ---
+2021-12-14 21:36:58,455 | Result: -1
+2021-12-14 21:36:58,456 | --- Completed get nonexistant user id test ---
+2021-12-14 21:36:58,581 | --- Starting get account aid test ---
+2021-12-14 21:36:59,121 | Result: 62
+2021-12-14 21:36:59,361 | --- Completed get account aid test ---
+2021-12-14 21:36:59,451 | --- Starting account exists for user test ---
+2021-12-14 21:36:59,950 | --- Completed account exists for user test ---
+2021-12-14 21:37:00,053 | --- Starting get account tags test ---
+2021-12-14 21:37:01,174 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:37:01,514 | --- Completed get account tags test ---
+2021-12-14 21:37:01,626 | --- Starting delete from user table test ---
+2021-12-14 21:37:03,530 | --- Completed delete from user table test --- 
+2021-12-14 21:37:03,640 | --- Starting account insert and delete test ---
+2021-12-14 21:37:04,853 | --- Completed account insert and delete test ---
+2021-12-14 21:37:04,976 | --- Starting transaction insert and delete test ---
+2021-12-14 21:37:06,575 | --- Completed transaction insert and delete test ---
+2021-12-14 21:37:06,715 | --- Started get total amount test ---
+2021-12-14 21:37:08,395 | --- Completed get total amount test ---
+2021-12-14 21:37:08,599 | --- Starting user exists test ---
+2021-12-14 21:37:09,266 | --- Completed user exists test ---
+2021-12-14 21:37:09,427 | --- Starting get user id test ---
+2021-12-14 21:37:09,607 | Result: 98
+2021-12-14 21:37:09,780 | --- Completed get user id test ---
+2021-12-14 21:37:09,914 | --- Starting get nonexistant user id test ---
+2021-12-14 21:37:09,931 | Result: -1
+2021-12-14 21:37:09,931 | --- Completed get nonexistant user id test ---
+2021-12-14 21:37:10,084 | --- Starting delete from user table test ---
+2021-12-14 21:37:11,137 | --- Completed delete from user table test --- 
+2021-12-14 21:37:11,262 | --- Starting account exists for user test ---
+2021-12-14 21:37:12,516 | --- Completed account exists for user test ---
+2021-12-14 21:37:12,638 | --- Starting get account aid test ---
+2021-12-14 21:37:13,351 | Result: 71
+2021-12-14 21:37:13,848 | --- Completed get account aid test ---
+2021-12-14 21:37:13,973 | --- Starting get account tags test ---
+2021-12-14 21:37:17,348 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:37:17,740 | --- Completed get account tags test ---
+2021-12-14 21:37:17,862 | --- Starting account insert and delete test ---
+2021-12-14 21:37:19,401 | --- Completed account insert and delete test ---
+2021-12-14 21:37:19,550 | --- Starting transaction insert and delete test ---
+2021-12-14 21:37:21,531 | --- Completed transaction insert and delete test ---
+2021-12-14 21:37:21,674 | --- Started get total amount test ---
+2021-12-14 21:37:23,778 | --- Completed get total amount test ---
+2021-12-14 21:41:07,037 | --- Starting get user id test ---
+2021-12-14 21:41:07,173 | Result: 108
+2021-12-14 21:41:07,449 | --- Completed get user id test ---
+2021-12-14 21:41:07,567 | --- Starting user exists test ---
+2021-12-14 21:41:07,903 | --- Completed user exists test ---
+2021-12-14 21:41:08,062 | --- Starting get nonexistant user id test ---
+2021-12-14 21:41:08,084 | Result: -1
+2021-12-14 21:41:08,084 | --- Completed get nonexistant user id test ---
+2021-12-14 21:41:08,268 | --- Starting get account aid test ---
+2021-12-14 21:41:08,568 | Result: 78
+2021-12-14 21:41:08,851 | --- Completed get account aid test ---
+2021-12-14 21:41:09,005 | --- Starting account exists for user test ---
+2021-12-14 21:41:09,911 | --- Completed account exists for user test ---
+2021-12-14 21:41:10,043 | --- Starting get account tags test ---
+2021-12-14 21:41:11,255 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:41:11,622 | --- Completed get account tags test ---
+2021-12-14 21:41:11,775 | --- Starting delete from user table test ---
+2021-12-14 21:41:12,993 | --- Completed delete from user table test --- 
+2021-12-14 21:41:13,116 | --- Starting account insert and delete test ---
+2021-12-14 21:41:14,559 | --- Completed account insert and delete test ---
+2021-12-14 21:41:14,683 | --- Starting transaction insert and delete test ---
+2021-12-14 21:41:16,638 | --- Completed transaction insert and delete test ---
+2021-12-14 21:41:16,770 | --- Started get total amount test ---
+2021-12-14 21:41:18,534 | --- Completed get total amount test ---
+2021-12-14 21:43:28,533 | --- Starting get user id test ---
+2021-12-14 21:43:28,681 | Result: 119
+2021-12-14 21:43:29,046 | --- Completed get user id test ---
+2021-12-14 21:43:29,215 | --- Starting user exists test ---
+2021-12-14 21:43:29,962 | --- Completed user exists test ---
+2021-12-14 21:43:30,140 | --- Starting get nonexistant user id test ---
+2021-12-14 21:43:30,153 | Result: -1
+2021-12-14 21:43:30,153 | --- Completed get nonexistant user id test ---
+2021-12-14 21:43:30,278 | --- Starting get account aid test ---
+2021-12-14 21:43:30,797 | Result: 86
+2021-12-14 21:43:31,199 | --- Completed get account aid test ---
+2021-12-14 21:43:31,346 | --- Starting account exists for user test ---
+2021-12-14 21:43:32,144 | --- Completed account exists for user test ---
+2021-12-14 21:43:32,324 | --- Starting get account tags test ---
+2021-12-14 21:43:33,614 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:43:34,276 | --- Completed get account tags test ---
+2021-12-14 21:43:34,390 | --- Starting delete from user table test ---
+2021-12-14 21:43:35,388 | --- Completed delete from user table test --- 
+2021-12-14 21:43:35,488 | --- Starting account insert and delete test ---
+2021-12-14 21:43:36,687 | --- Completed account insert and delete test ---
+2021-12-14 21:43:36,821 | --- Starting transaction insert and delete test ---
+2021-12-14 21:43:38,339 | --- Completed transaction insert and delete test ---
+2021-12-14 21:43:38,472 | --- Started get total amount test ---
+2021-12-14 21:43:44,724 | --- Completed get total amount test ---
+2021-12-14 21:45:26,493 | --- Starting get user id test ---
+2021-12-14 21:45:26,625 | Result: 130
+2021-12-14 21:45:26,903 | --- Completed get user id test ---
+2021-12-14 21:45:27,023 | --- Starting user exists test ---
+2021-12-14 21:45:27,378 | --- Completed user exists test ---
+2021-12-14 21:45:27,503 | --- Starting get nonexistant user id test ---
+2021-12-14 21:45:27,518 | Result: -1
+2021-12-14 21:45:27,518 | --- Completed get nonexistant user id test ---
+2021-12-14 21:45:27,629 | --- Starting get account aid test ---
+2021-12-14 21:45:27,893 | Result: 94
+2021-12-14 21:45:28,160 | --- Completed get account aid test ---
+2021-12-14 21:45:28,295 | --- Starting account exists for user test ---
+2021-12-14 21:45:29,136 | --- Completed account exists for user test ---
+2021-12-14 21:45:29,261 | --- Starting get account tags test ---
+2021-12-14 21:45:30,561 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:45:31,000 | --- Completed get account tags test ---
+2021-12-14 21:45:31,120 | --- Starting delete from user table test ---
+2021-12-14 21:45:32,202 | --- Completed delete from user table test --- 
+2021-12-14 21:45:32,302 | --- Starting account insert and delete test ---
+2021-12-14 21:45:33,673 | --- Completed account insert and delete test ---
+2021-12-14 21:45:33,780 | --- Starting transaction insert and delete test ---
+2021-12-14 21:45:35,868 | --- Completed transaction insert and delete test ---
+2021-12-14 21:45:36,025 | --- Started get total amount test ---
+2021-12-14 21:45:37,758 | --- Completed get total amount test ---
+2021-12-14 21:45:50,537 | --- Starting get user id test ---
+2021-12-14 21:45:50,726 | Result: 141
+2021-12-14 21:45:50,952 | --- Completed get user id test ---
+2021-12-14 21:45:51,099 | --- Starting user exists test ---
+2021-12-14 21:45:51,465 | --- Completed user exists test ---
+2021-12-14 21:45:51,585 | --- Starting get nonexistant user id test ---
+2021-12-14 21:45:51,602 | Result: -1
+2021-12-14 21:45:51,602 | --- Completed get nonexistant user id test ---
+2021-12-14 21:45:51,787 | --- Starting get account aid test ---
+2021-12-14 21:45:52,212 | Result: 102
+2021-12-14 21:45:52,532 | --- Completed get account aid test ---
+2021-12-14 21:45:52,651 | --- Starting account exists for user test ---
+2021-12-14 21:45:53,790 | --- Completed account exists for user test ---
+2021-12-14 21:45:53,926 | --- Starting get account tags test ---
+2021-12-14 21:45:55,646 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:45:56,087 | --- Completed get account tags test ---
+2021-12-14 21:45:56,194 | --- Starting delete from user table test ---
+2021-12-14 21:45:57,265 | --- Completed delete from user table test --- 
+2021-12-14 21:45:57,389 | --- Starting account insert and delete test ---
+2021-12-14 21:45:58,944 | --- Completed account insert and delete test ---
+2021-12-14 21:45:59,093 | --- Starting transaction insert and delete test ---
+2021-12-14 21:46:00,548 | --- Completed transaction insert and delete test ---
+2021-12-14 21:46:00,689 | --- Started get total amount test ---
+2021-12-14 21:46:02,215 | --- Completed get total amount test ---
+2021-12-14 21:49:39,927 | --- Starting get user id test ---
+2021-12-14 21:49:40,066 | Result: 152
+2021-12-14 21:49:40,237 | --- Completed get user id test ---
+2021-12-14 21:49:40,351 | --- Starting user exists test ---
+2021-12-14 21:49:40,715 | --- Completed user exists test ---
+2021-12-14 21:49:40,820 | --- Starting get nonexistant user id test ---
+2021-12-14 21:49:40,836 | Result: -1
+2021-12-14 21:49:40,836 | --- Completed get nonexistant user id test ---
+2021-12-14 21:49:40,954 | --- Starting get account aid test ---
+2021-12-14 21:49:41,196 | Result: 110
+2021-12-14 21:49:41,457 | --- Completed get account aid test ---
+2021-12-14 21:49:41,556 | --- Starting account exists for user test ---
+2021-12-14 21:49:42,478 | --- Completed account exists for user test ---
+2021-12-14 21:49:42,585 | --- Starting get account tags test ---
+2021-12-14 21:49:43,937 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:49:44,278 | --- Completed get account tags test ---
+2021-12-14 21:49:44,372 | --- Starting delete from user table test ---
+2021-12-14 21:49:45,440 | --- Completed delete from user table test --- 
+2021-12-14 21:49:45,555 | --- Starting account insert and delete test ---
+2021-12-14 21:49:47,507 | --- Completed account insert and delete test ---
+2021-12-14 21:49:47,626 | --- Starting transaction insert and delete test ---
+2021-12-14 21:49:49,628 | --- Completed transaction insert and delete test ---
+2021-12-14 21:49:49,744 | --- Started get total amount test ---
+2021-12-14 21:49:51,602 | --- Completed get total amount test ---
+2021-12-14 21:53:13,577 | --- Starting get user id test ---
+2021-12-14 21:53:13,775 | Result: 163
+2021-12-14 21:53:13,989 | --- Completed get user id test ---
+2021-12-14 21:53:14,123 | --- Starting user exists test ---
+2021-12-14 21:53:14,376 | --- Completed user exists test ---
+2021-12-14 21:53:14,487 | --- Starting get nonexistant user id test ---
+2021-12-14 21:53:14,500 | Result: -1
+2021-12-14 21:53:14,500 | --- Completed get nonexistant user id test ---
+2021-12-14 21:53:14,607 | --- Starting get account aid test ---
+2021-12-14 21:53:14,883 | Result: 118
+2021-12-14 21:53:15,167 | --- Completed get account aid test ---
+2021-12-14 21:53:15,276 | --- Starting account exists for user test ---
+2021-12-14 21:53:16,425 | --- Completed account exists for user test ---
+2021-12-14 21:53:16,530 | --- Starting get account tags test ---
+2021-12-14 21:53:18,279 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:53:18,517 | --- Completed get account tags test ---
+2021-12-14 21:53:18,641 | --- Starting delete from user table test ---
+2021-12-14 21:53:19,517 | --- Completed delete from user table test --- 
+2021-12-14 21:53:19,628 | --- Starting account insert and delete test ---
+2021-12-14 21:53:20,817 | --- Completed account insert and delete test ---
+2021-12-14 21:53:20,944 | --- Starting transaction insert and delete test ---
+2021-12-14 21:53:22,251 | --- Completed transaction insert and delete test ---
+2021-12-14 21:53:22,534 | --- Started get total amount test ---
+2021-12-14 21:53:24,193 | --- Completed get total amount test ---
+2021-12-14 21:53:32,099 | --- Starting get user id test ---
+2021-12-14 21:53:32,407 | Result: 174
+2021-12-14 21:53:32,577 | --- Completed get user id test ---
+2021-12-14 21:53:32,704 | --- Starting user exists test ---
+2021-12-14 21:53:33,035 | --- Completed user exists test ---
+2021-12-14 21:53:33,152 | --- Starting get nonexistant user id test ---
+2021-12-14 21:53:33,168 | Result: -1
+2021-12-14 21:53:33,169 | --- Completed get nonexistant user id test ---
+2021-12-14 21:53:33,270 | --- Starting get account aid test ---
+2021-12-14 21:53:33,728 | Result: 126
+2021-12-14 21:53:34,034 | --- Completed get account aid test ---
+2021-12-14 21:53:34,147 | --- Starting account exists for user test ---
+2021-12-14 21:53:35,046 | --- Completed account exists for user test ---
+2021-12-14 21:53:35,147 | --- Starting get account tags test ---
+2021-12-14 21:53:36,485 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:53:36,993 | --- Completed get account tags test ---
+2021-12-14 21:53:37,110 | --- Starting delete from user table test ---
+2021-12-14 21:53:37,857 | --- Completed delete from user table test --- 
+2021-12-14 21:53:37,954 | --- Starting account insert and delete test ---
+2021-12-14 21:53:39,641 | --- Completed account insert and delete test ---
+2021-12-14 21:53:39,754 | --- Starting transaction insert and delete test ---
+2021-12-14 21:53:41,435 | --- Completed transaction insert and delete test ---
+2021-12-14 21:53:41,570 | --- Started get total amount test ---
+2021-12-14 21:53:43,325 | --- Completed get total amount test ---
+2021-12-14 21:53:46,306 | --- Starting get user id test ---
+2021-12-14 21:53:46,446 | Result: 185
+2021-12-14 21:53:46,583 | --- Completed get user id test ---
+2021-12-14 21:53:46,693 | --- Starting user exists test ---
+2021-12-14 21:53:47,075 | --- Completed user exists test ---
+2021-12-14 21:53:47,207 | --- Starting get nonexistant user id test ---
+2021-12-14 21:53:47,222 | Result: -1
+2021-12-14 21:53:47,222 | --- Completed get nonexistant user id test ---
+2021-12-14 21:53:47,327 | --- Starting get account aid test ---
+2021-12-14 21:53:47,655 | Result: 134
+2021-12-14 21:53:48,102 | --- Completed get account aid test ---
+2021-12-14 21:53:48,215 | --- Starting account exists for user test ---
+2021-12-14 21:53:49,134 | --- Completed account exists for user test ---
+2021-12-14 21:53:49,250 | --- Starting get account tags test ---
+2021-12-14 21:53:51,481 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:53:51,766 | --- Completed get account tags test ---
+2021-12-14 21:53:51,885 | --- Starting delete from user table test ---
+2021-12-14 21:53:52,843 | --- Completed delete from user table test --- 
+2021-12-14 21:53:52,983 | --- Starting account insert and delete test ---
+2021-12-14 21:53:54,489 | --- Completed account insert and delete test ---
+2021-12-14 21:53:54,940 | --- Starting transaction insert and delete test ---
+2021-12-14 21:53:57,472 | --- Completed transaction insert and delete test ---
+2021-12-14 21:53:57,580 | --- Started get total amount test ---
+2021-12-14 21:53:59,023 | --- Completed get total amount test ---
+2021-12-14 21:58:12,553 | --- Starting get user id test ---
+2021-12-14 21:58:12,733 | Result: 196
+2021-12-14 21:58:13,068 | --- Completed get user id test ---
+2021-12-14 21:58:13,220 | --- Starting user exists test ---
+2021-12-14 21:58:13,597 | --- Completed user exists test ---
+2021-12-14 21:58:13,748 | --- Starting get nonexistant user id test ---
+2021-12-14 21:58:13,763 | Result: -1
+2021-12-14 21:58:13,764 | --- Completed get nonexistant user id test ---
+2021-12-14 21:58:13,899 | --- Starting get account aid test ---
+2021-12-14 21:58:14,221 | Result: 142
+2021-12-14 21:58:14,906 | --- Completed get account aid test ---
+2021-12-14 21:58:15,047 | --- Starting account exists for user test ---
+2021-12-14 21:58:15,712 | --- Completed account exists for user test ---
+2021-12-14 21:58:15,817 | --- Starting get account tags test ---
+2021-12-14 21:58:17,378 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:58:17,630 | --- Completed get account tags test ---
+2021-12-14 21:58:17,758 | --- Starting delete from user table test ---
+2021-12-14 21:58:18,681 | --- Completed delete from user table test --- 
+2021-12-14 21:58:18,860 | --- Starting account insert and delete test ---
+2021-12-14 21:58:20,064 | --- Completed account insert and delete test ---
+2021-12-14 21:58:20,165 | --- Starting transaction insert and delete test ---
+2021-12-14 21:58:22,279 | --- Completed transaction insert and delete test ---
+2021-12-14 21:58:22,460 | --- Started get total amount test ---
+2021-12-14 21:58:24,096 | --- Completed get total amount test ---
+2021-12-14 21:59:31,125 | --- Starting get user id test ---
+2021-12-14 21:59:31,268 | Result: 207
+2021-12-14 21:59:31,446 | --- Completed get user id test ---
+2021-12-14 21:59:31,579 | --- Starting user exists test ---
+2021-12-14 21:59:32,066 | --- Completed user exists test ---
+2021-12-14 21:59:32,190 | --- Starting get nonexistant user id test ---
+2021-12-14 21:59:32,214 | Result: -1
+2021-12-14 21:59:32,214 | --- Completed get nonexistant user id test ---
+2021-12-14 21:59:32,324 | --- Starting get account aid test ---
+2021-12-14 21:59:32,575 | Result: 150
+2021-12-14 21:59:33,345 | --- Completed get account aid test ---
+2021-12-14 21:59:33,441 | --- Starting account exists for user test ---
+2021-12-14 21:59:34,773 | --- Completed account exists for user test ---
+2021-12-14 21:59:34,882 | --- Starting get account tags test ---
+2021-12-14 21:59:37,778 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 21:59:38,099 | --- Completed get account tags test ---
+2021-12-14 21:59:38,278 | --- Starting delete from user table test ---
+2021-12-14 21:59:39,340 | --- Completed delete from user table test --- 
+2021-12-14 21:59:39,443 | --- Starting account insert and delete test ---
+2021-12-14 21:59:40,620 | --- Completed account insert and delete test ---
+2021-12-14 21:59:40,715 | --- Starting transaction insert and delete test ---
+2021-12-14 21:59:42,563 | --- Completed transaction insert and delete test ---
+2021-12-14 21:59:42,707 | --- Started get total amount test ---
+2021-12-14 21:59:44,238 | --- Completed get total amount test ---
+2021-12-14 22:02:27,373 | --- Starting get user id test ---
+2021-12-14 22:02:27,554 | Result: 218
+2021-12-14 22:02:27,841 | --- Completed get user id test ---
+2021-12-14 22:02:27,959 | --- Starting user exists test ---
+2021-12-14 22:02:28,270 | --- Completed user exists test ---
+2021-12-14 22:02:28,376 | --- Starting get nonexistant user id test ---
+2021-12-14 22:02:28,394 | Result: -1
+2021-12-14 22:02:28,395 | --- Completed get nonexistant user id test ---
+2021-12-14 22:02:28,497 | --- Starting get account aid test ---
+2021-12-14 22:02:28,771 | Result: 158
+2021-12-14 22:02:28,994 | --- Completed get account aid test ---
+2021-12-14 22:02:29,107 | --- Starting account exists for user test ---
+2021-12-14 22:02:29,993 | --- Completed account exists for user test ---
+2021-12-14 22:02:30,103 | --- Starting get account tags test ---
+2021-12-14 22:02:31,583 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 22:02:32,083 | --- Completed get account tags test ---
+2021-12-14 22:02:32,213 | --- Starting delete from user table test ---
+2021-12-14 22:02:33,540 | --- Completed delete from user table test --- 
+2021-12-14 22:02:33,649 | --- Starting account insert and delete test ---
+2021-12-14 22:02:35,202 | --- Completed account insert and delete test ---
+2021-12-14 22:02:35,312 | --- Starting transaction insert and delete test ---
+2021-12-14 22:02:36,783 | --- Completed transaction insert and delete test ---
+2021-12-14 22:02:36,885 | --- Started get total amount test ---
+2021-12-14 22:02:38,170 | --- Completed get total amount test ---
+2021-12-14 22:07:02,932 | --- Starting get user id test ---
+2021-12-14 22:07:03,307 | Result: 229
+2021-12-14 22:07:03,519 | --- Completed get user id test ---
+2021-12-14 22:07:03,653 | --- Starting user exists test ---
+2021-12-14 22:07:03,932 | --- Completed user exists test ---
+2021-12-14 22:07:04,058 | --- Starting get nonexistant user id test ---
+2021-12-14 22:07:04,075 | Result: -1
+2021-12-14 22:07:04,075 | --- Completed get nonexistant user id test ---
+2021-12-14 22:07:04,208 | --- Starting get account aid test ---
+2021-12-14 22:07:04,541 | Result: 166
+2021-12-14 22:07:04,868 | --- Completed get account aid test ---
+2021-12-14 22:07:05,010 | --- Starting account exists for user test ---
+2021-12-14 22:07:05,666 | --- Completed account exists for user test ---
+2021-12-14 22:07:05,790 | --- Starting get account tags test ---
+2021-12-14 22:07:07,614 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 22:07:07,882 | --- Completed get account tags test ---
+2021-12-14 22:07:08,017 | --- Starting delete from user table test ---
+2021-12-14 22:07:08,942 | --- Completed delete from user table test --- 
+2021-12-14 22:07:09,069 | --- Starting account insert and delete test ---
+2021-12-14 22:07:10,074 | --- Completed account insert and delete test ---
+2021-12-14 22:07:10,172 | --- Starting transaction insert and delete test ---
+2021-12-14 22:07:11,357 | --- Completed transaction insert and delete test ---
+2021-12-14 22:07:11,498 | --- Started get total amount test ---
+2021-12-14 22:07:12,692 | --- Completed get total amount test ---
+2021-12-14 22:07:39,568 | --- Starting get user id test ---
+2021-12-14 22:07:39,955 | Result: 240
+2021-12-14 22:07:40,163 | --- Completed get user id test ---
+2021-12-14 22:07:40,284 | --- Starting user exists test ---
+2021-12-14 22:07:40,616 | --- Completed user exists test ---
+2021-12-14 22:07:40,743 | --- Starting get nonexistant user id test ---
+2021-12-14 22:07:40,758 | Result: -1
+2021-12-14 22:07:40,759 | --- Completed get nonexistant user id test ---
+2021-12-14 22:07:40,887 | --- Starting get account aid test ---
+2021-12-14 22:07:41,138 | Result: 174
+2021-12-14 22:07:41,365 | --- Completed get account aid test ---
+2021-12-14 22:07:41,467 | --- Starting account exists for user test ---
+2021-12-14 22:07:41,968 | --- Completed account exists for user test ---
+2021-12-14 22:07:42,070 | --- Starting get account tags test ---
+2021-12-14 22:07:43,158 | Results: ['Apples', 'Cheese', 'Grapes', 'Juice']
+2021-12-14 22:07:43,474 | --- Completed get account tags test ---
+2021-12-14 22:07:43,628 | --- Starting delete from user table test ---
+2021-12-14 22:07:44,888 | --- Completed delete from user table test --- 
+2021-12-14 22:07:45,001 | --- Starting account insert and delete test ---
+2021-12-14 22:07:46,383 | --- Completed account insert and delete test ---
+2021-12-14 22:07:46,492 | --- Starting transaction insert and delete test ---
+2021-12-14 22:07:48,145 | --- Completed transaction insert and delete test ---
+2021-12-14 22:07:48,253 | --- Started get total amount test ---
+2021-12-14 22:07:49,988 | --- Completed get total amount test ---
+2021-12-14 22:15:05,338 | --- Starting get user id test ---
+2021-12-14 22:15:05,787 | Result: 251
+2021-12-14 22:15:42,372 | --- Starting get user id test ---
+2021-12-14 22:16:31,437 | --- Starting get user id test ---
+2021-12-14 22:17:07,381 | --- Starting get user id test ---
+2021-12-14 22:30:24,922 | --- Starting get user id test ---
+2021-12-14 22:32:43,941 | --- Starting get user id test ---
+2021-12-14 22:32:57,489 | --- Starting get user id test ---
+2021-12-14 22:37:02,019 | --- Starting get user id test ---
+2021-12-14 23:59:35,529 | --- Starting get user id test ---
+2021-12-14 23:59:56,339 | --- Starting get user id test ---
+2021-12-15 10:02:21,489 | --- Starting get user id test ---

@@ -1,0 +1,57 @@
+<!-- 
+  *  This is for demo purposes only. There are much 
+  *  cleaner (and fancier) ways to do the following! 
+  --!>
+
+<html>
+<head>  
+<script>
+
+  // build the html
+  function toHTML(json) {
+    var result = '<ol>';
+    for (i = 0; i < json.length; ++i) {
+      result += '<li>';
+      result += json[i]['title'];
+      result += ' (' + json[i]['length'] + ')'
+      result += '</li>';
+    }
+    result += '</ol>';
+    return result;
+  }
+
+  // attach HTML to div element
+  function displayData(json) {
+    document.getElementById('demo').innerHTML = toHTML(json);
+  }
+ 
+  // call the web service and add result
+  function userAction() {
+    var url = 'https://barney.gonzaga.edu/~bowers/movies_by_rating.php?rating=';
+    url += document.getElementById('ratingChoice').value;
+    console.log('url: ', url);
+    fetch(url)
+    .then(response => response.json())
+    .then(json => displayData(json))
+    .catch(err => console.log('Request Failed: ', err))    
+  }
+</script>
+</head>
+
+<body>
+
+  <select id="ratingChoice">
+    <option value="G" selected="selected">G rated</option>
+    <option value="PG">PG rated</option>
+  </select>
+  <button type="submit" onclick="userAction()">Invoke Rest API</button>
+
+  <p/>
+  <b>Result:</b>
+
+  <p/>
+  <div id="demo">
+  </div>
+
+</body>
+</html>
