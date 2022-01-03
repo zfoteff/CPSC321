@@ -6,6 +6,8 @@ Python modules needed:
 * PySimpleGUI
 * matplotlib
 
+Must be configured to run on a MySQL server in the config.py file
+
 ## Running Project
 ```bash
 $ python3 ExpenseCalculator.py
